@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://licitatiimedicale.com/schema/awards.schema.json",
+  "title": "Romanian Medical Waste Contract Award",
+  "description": "Single contract award notice (TED F03) for Romanian medical waste services (CPV 9052*)",
+  "type": "object",
+  "required": ["tender_id", "hospital_name", "winner_name"],
+  "properties": {
+    "id": {
+      "type": "integer",
+      "description": "Internal numeric ID"
+    },
+    "tender_id": {
+      "type": "string",
+      "description": "TED notice publication number, format {seq}-{year}",
+      "examples": ["295355-2026", "307636-2026"]
+    },
+    "hospital_name": {
+      "type": "string",
+      "description": "Contracting authority full name as published in TED"
+    },
+    "hospital_slug": {
+      "type": "string",
+      "description": "URL-safe slug for hospital page on licitatiimedicale.com",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "entity_key": {
+      "type": "string",
+      "description": "Normalized entity key (city slug) for cross-referencing"
+    },
+    "winner_name": {
+      "type": "string",
+      "description": "Winning operator(s); joint ventures separated by ' / '"
+    },
+    "value_ron": {
+      "type": ["number", "null"],
+      "description": "Contract value in RON. May be null for older records.",
+      "minimum": 0
+    },
+    "value_currency": {
+      "type": "string",
+      "description": "Currency code",
+      "default": "RON",
+      "examples": ["RON"]
+    },
+    "value_type": {
+      "type": "string",
+      "enum": ["framework", "single", "unknown"],
+      "description": "Framework agreement (multi-year ceiling) vs specific contract (single payment)"
+    },
+    "award_date": {
+      "type": ["string", "null"],
+      "format": "date",
+      "description": "Date of contract award (YYYY-MM-DD)"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When this row was added to our database"
+    }
+  }
+}

@@ -8,7 +8,10 @@
 **Site:** https://licitatiimedicale.com
 **Last updated:** see `data/*.csv` timestamps + git log
 **License:** Creative Commons Attribution 4.0 ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))
-**DOI:** [10.5281/zenodo.20535486](https://doi.org/10.5281/zenodo.20535486) (CPV 9052* version, May 2026)
+
+**DOI (academic citation):**
+- CPV 9052* (medical waste, 487 records): [10.5281/zenodo.20535486](https://doi.org/10.5281/zenodo.20535486)
+- CPV 33* (medical devices, 19,087 records) 🆕: [10.5281/zenodo.20550446](https://doi.org/10.5281/zenodo.20550446)
 
 ---
 
@@ -127,14 +130,24 @@ For real-time access:
 ## Citation
 
 ```bibtex
-@dataset{licitatiimedicale_2026,
+@dataset{licitatiimedicale_cpv9052_2026,
   author       = {{Licitații Medicale}},
-  title        = {Romanian Medical Procurement Dataset (CPV 9052* + CPV 33*)},
+  title        = {Romanian Hazardous Medical Waste Procurement (CPV 9052*)},
   year         = 2026,
-  publisher    = {licitatiimedicale.com},
+  publisher    = {Zenodo},
   url          = {https://github.com/licitatiimedicale/data},
   doi          = {10.5281/zenodo.20535486},
   note         = {CC BY 4.0}
+}
+
+@dataset{licitatiimedicale_cpv33_2026,
+  author       = {{Licitații Medicale}},
+  title        = {Romanian Medical Devices Procurement (CPV 33*)},
+  year         = 2026,
+  publisher    = {Zenodo},
+  url          = {https://github.com/licitatiimedicale/data},
+  doi          = {10.5281/zenodo.20550446},
+  note         = {CC BY 4.0 — 19,087 contracts, 942 hospitals, 1,370 distributors}
 }
 ```
 

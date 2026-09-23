@@ -29,7 +29,7 @@ A journalist who checked the v1 files before publication found the errors listed
 
 ### Zenodo
 
-The DOIs cited in v1 (10.5281/zenodo.20535486, 10.5281/zenodo.20550446) describe the v1 files and inherit their errors. Monthly automatic deposits are suspended. A new Zenodo version with the v2 files and a correction note will be published; until then, cite this repository at the v2 tag.
+The DOIs cited in v1 (10.5281/zenodo.20535486, 10.5281/zenodo.20550446) describe the v1 files and inherit their errors. Monthly automatic deposits are suspended. The v2 files are published as a new Zenodo record, **DOI 10.5281/zenodo.22908874**; every v1 record (10.5281/zenodo.20503071, 20535487, 20550446, 21096793, 21096797, 21736017, 21736019, 22226079) is annotated as withdrawn and points to it.
 
 ## v1 — 2026-06-03 / 2026-06-05
 

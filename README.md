@@ -45,7 +45,7 @@ Public data only; legal entities only. No accusation is made or implied about an
 
 ## Citation
 
-See `CITATION.cff`. The Zenodo DOIs of v1 describe the withdrawn files; a new Zenodo version for v2 will be listed here when published.
+See `CITATION.cff`. **v2 DOI: [10.5281/zenodo.22908874](https://doi.org/10.5281/zenodo.22908874)**. The Zenodo records of v1 (June–September 2026) are annotated as withdrawn and point to this record.
 
 ## Who
 

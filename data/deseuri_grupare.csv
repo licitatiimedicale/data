@@ -1,0 +1,1023 @@
+id_brut_db,id_anunt_normalizat,id_procedura_finala,relatie
+ot:CAN1033894:award-1,CAN1033894,,exclus: autoritate non-spital
+ot:SCN1065408:award-1,SCN1065408,,exclus: autoritate non-spital
+ot:SCN1065577:award-1,SCN1065577,,exclus: autoritate non-spital
+ot:SCN1066078:award-1,SCN1066078,,exclus: autoritate non-spital
+ot:SCN1066078:award-10,SCN1066078,,exclus: autoritate non-spital
+ot:SCN1066078:award-11,SCN1066078,,exclus: autoritate non-spital
+ot:SCN1066078:award-12,SCN1066078,,exclus: autoritate non-spital
+ot:SCN1066078:award-13,SCN1066078,,exclus: autoritate non-spital
+ot:SCN1066078:award-2,SCN1066078,,exclus: autoritate non-spital
+ot:SCN1066078:award-3,SCN1066078,,exclus: autoritate non-spital
+ot:SCN1066078:award-4,SCN1066078,,exclus: autoritate non-spital
+ot:SCN1066078:award-5,SCN1066078,,exclus: autoritate non-spital
+ot:SCN1066078:award-6,SCN1066078,,exclus: autoritate non-spital
+ot:SCN1066078:award-7,SCN1066078,,exclus: autoritate non-spital
+ot:SCN1066078:award-8,SCN1066078,,exclus: autoritate non-spital
+ot:SCN1066078:award-9,SCN1066078,,exclus: autoritate non-spital
+ot:SCN1066479:award-1,SCN1066479,,exclus: autoritate non-spital
+ot:SCN1082344:award-1,SCN1082344,,exclus: autoritate non-spital
+ot:SCN1082344:award-2,SCN1082344,,exclus: autoritate non-spital
+ot:SCN1082344:award-3,SCN1082344,,exclus: autoritate non-spital
+ot:SCN1082344:award-4,SCN1082344,,exclus: autoritate non-spital
+ot:SCN1082344:award-5,SCN1082344,,exclus: autoritate non-spital
+ot:SCN1082344:award-6,SCN1082344,,exclus: autoritate non-spital
+ot:SCN1082344:award-7,SCN1082344,,exclus: autoritate non-spital
+ot:SCN1082344:award-8,SCN1082344,,exclus: autoritate non-spital
+ot:SCN1082344:award-9,SCN1082344,,exclus: autoritate non-spital
+ot:CAN1055918:award-1,CAN1055918,,exclus: autoritate non-spital
+ot:CAN1056325:award-1,CAN1056325,,exclus: autoritate non-spital
+ot:CAN1056490:award-1,CAN1056490,,exclus: centru medical ambulatoriu (fara paturi)
+ot:CAN1056498:award-1,CAN1056498,,exclus: centru medical ambulatoriu (fara paturi)
+ot:CAN1057261:award-1,CAN1057261,,exclus: autoritate non-spital
+ot:CAN1057276:award-1,CAN1057276,,exclus: autoritate non-spital
+ot:SCN1083177:award-1,SCN1083177,,exclus: autoritate non-spital
+ot:SCN1083177:award-10,SCN1083177,,exclus: autoritate non-spital
+ot:SCN1083177:award-11,SCN1083177,,exclus: autoritate non-spital
+ot:SCN1083177:award-12,SCN1083177,,exclus: autoritate non-spital
+ot:SCN1083177:award-13,SCN1083177,,exclus: autoritate non-spital
+ot:SCN1083177:award-14,SCN1083177,,exclus: autoritate non-spital
+ot:SCN1083177:award-15,SCN1083177,,exclus: autoritate non-spital
+ot:SCN1083177:award-16,SCN1083177,,exclus: autoritate non-spital
+ot:SCN1083177:award-17,SCN1083177,,exclus: autoritate non-spital
+ot:SCN1083177:award-18,SCN1083177,,exclus: autoritate non-spital
+ot:SCN1083177:award-19,SCN1083177,,exclus: autoritate non-spital
+ot:SCN1083177:award-2,SCN1083177,,exclus: autoritate non-spital
+ot:SCN1083177:award-20,SCN1083177,,exclus: autoritate non-spital
+ot:SCN1083177:award-21,SCN1083177,,exclus: autoritate non-spital
+ot:SCN1083177:award-22,SCN1083177,,exclus: autoritate non-spital
+ot:SCN1083177:award-23,SCN1083177,,exclus: autoritate non-spital
+ot:SCN1083177:award-24,SCN1083177,,exclus: autoritate non-spital
+ot:SCN1083177:award-25,SCN1083177,,exclus: autoritate non-spital
+ot:SCN1083177:award-3,SCN1083177,,exclus: autoritate non-spital
+ot:SCN1083177:award-4,SCN1083177,,exclus: autoritate non-spital
+ot:SCN1083177:award-5,SCN1083177,,exclus: autoritate non-spital
+ot:SCN1083177:award-6,SCN1083177,,exclus: autoritate non-spital
+ot:SCN1083177:award-7,SCN1083177,,exclus: autoritate non-spital
+ot:SCN1083177:award-8,SCN1083177,,exclus: autoritate non-spital
+ot:SCN1083177:award-9,SCN1083177,,exclus: autoritate non-spital
+ot:SCN1082114:award-1,SCN1082114,,exclus: autoritate non-spital
+ot:SCN1087417:award-1,SCN1087417,,exclus: autoritate non-spital
+ot:SCN1087417:award-2,SCN1087417,,exclus: autoritate non-spital
+ot:SCN1087417:award-3,SCN1087417,,exclus: autoritate non-spital
+ot:SCN1087417:award-4,SCN1087417,,exclus: autoritate non-spital
+ot:SCN1087417:award-5,SCN1087417,,exclus: autoritate non-spital
+ot:SCN1087417:award-6,SCN1087417,,exclus: autoritate non-spital
+ot:CAN1063581:award-1,CAN1063581,,exclus: autoritate non-spital
+524591-2021,524591-2021,,exclus: procedura anulata / fara castigator (XML TED)
+ot:CAN1066692:award-1,CAN1066692,,exclus: autoritate non-spital
+ot:SCN1099614:award-1,SCN1099614,,exclus: autoritate non-spital
+ot:2022/S 107-301151:award-1,301151-2022,,exclus: autoritate non-spital
+ot:CAN1080888:award-1,CAN1080888,,exclus: centru medical ambulatoriu (fara paturi)
+ot:CAN1080910:award-1,CAN1080910,,exclus: centru medical ambulatoriu (fara paturi)
+ot:SCN1103502:award-1,SCN1103502,,exclus: autoritate non-spital
+ot:SCN1103502:award-10,SCN1103502,,exclus: autoritate non-spital
+ot:SCN1103502:award-2,SCN1103502,,exclus: autoritate non-spital
+ot:SCN1103502:award-3,SCN1103502,,exclus: autoritate non-spital
+ot:SCN1103502:award-4,SCN1103502,,exclus: autoritate non-spital
+ot:SCN1103502:award-5,SCN1103502,,exclus: autoritate non-spital
+ot:SCN1103502:award-6,SCN1103502,,exclus: autoritate non-spital
+ot:SCN1103502:award-7,SCN1103502,,exclus: autoritate non-spital
+ot:SCN1103502:award-8,SCN1103502,,exclus: autoritate non-spital
+ot:SCN1103502:award-9,SCN1103502,,exclus: autoritate non-spital
+370488-2022,370488-2022,,exclus: autoritate non-spital
+ot:CAN1102894:award-1,CAN1102894,,exclus: deseuri menajere dupa titlu
+ot:SCN1119349:award-1,SCN1119349,,exclus: autoritate non-spital
+ot:SCN1119349:award-2,SCN1119349,,exclus: autoritate non-spital
+ot:SCN1119349:award-3,SCN1119349,,exclus: autoritate non-spital
+ot:SCN1119349:award-4,SCN1119349,,exclus: autoritate non-spital
+ot:SCN1119349:award-5,SCN1119349,,exclus: autoritate non-spital
+ot:SCN1121915:award-1,SCN1121915,,exclus: autoritate non-spital
+ot:SCN1121915:award-10,SCN1121915,,exclus: autoritate non-spital
+ot:SCN1121915:award-11,SCN1121915,,exclus: autoritate non-spital
+ot:SCN1121915:award-12,SCN1121915,,exclus: autoritate non-spital
+ot:SCN1121915:award-13,SCN1121915,,exclus: autoritate non-spital
+ot:SCN1121915:award-14,SCN1121915,,exclus: autoritate non-spital
+ot:SCN1121915:award-15,SCN1121915,,exclus: autoritate non-spital
+ot:SCN1121915:award-16,SCN1121915,,exclus: autoritate non-spital
+ot:SCN1121915:award-17,SCN1121915,,exclus: autoritate non-spital
+ot:SCN1121915:award-18,SCN1121915,,exclus: autoritate non-spital
+ot:SCN1121915:award-19,SCN1121915,,exclus: autoritate non-spital
+ot:SCN1121915:award-2,SCN1121915,,exclus: autoritate non-spital
+ot:SCN1121915:award-20,SCN1121915,,exclus: autoritate non-spital
+ot:SCN1121915:award-21,SCN1121915,,exclus: autoritate non-spital
+ot:SCN1121915:award-22,SCN1121915,,exclus: autoritate non-spital
+ot:SCN1121915:award-3,SCN1121915,,exclus: autoritate non-spital
+ot:SCN1121915:award-4,SCN1121915,,exclus: autoritate non-spital
+ot:SCN1121915:award-5,SCN1121915,,exclus: autoritate non-spital
+ot:SCN1121915:award-6,SCN1121915,,exclus: autoritate non-spital
+ot:SCN1121915:award-7,SCN1121915,,exclus: autoritate non-spital
+ot:SCN1121915:award-8,SCN1121915,,exclus: autoritate non-spital
+ot:SCN1121915:award-9,SCN1121915,,exclus: autoritate non-spital
+ot:SCN1126377:award-1,SCN1126377,,exclus: autoritate non-spital
+ot:CAN1118286:award-1,CAN1118286,,exclus: deseuri menajere dupa titlu
+189050-2024,189050-2024,,exclus: procedura anulata / fara castigator (XML TED)
+ot:SCN1144593:award-1,SCN1144593,,exclus: autoritate non-spital
+472803-2024,472803-2024,,exclus: procedura anulata / fara castigator (XML TED)
+ot:SCN1145904:award-1,SCN1145904,,exclus: autoritate non-spital
+650437-2024,650437-2024,,exclus: procedura anulata / fara castigator (XML TED)
+ot:CAN1134597:award-1,CAN1134597,,exclus: deseuri menajere dupa titlu
+347071-2025,347071-2025,,exclus: procedura anulata / fara castigator (XML TED)
+556972-2025,556972-2025,,exclus: procedura anulata / fara castigator (XML TED)
+4429-2026,4429-2026,,exclus: procedura anulata / fara castigator (XML TED)
+367655-2019,367655-2019,367655-2019,acelasi anunt
+519109-2020,519109-2020,367655-2019,acelasi anunt de participare (F02)
+404406-2022,404406-2022,367655-2019,acelasi anunt de participare (F02)
+380391-2019,380391-2019,380391-2019,acelasi anunt
+136512-2020,136512-2020,380391-2019,acelasi anunt de participare (F02)
+147371-2021,147371-2021,380391-2019,acelasi anunt de participare (F02)
+587551-2021,587551-2021,380391-2019,acelasi anunt de participare (F02)
+12201-2022,12201-2022,380391-2019,acelasi anunt de participare (F02)
+ot:2022/S 006-012201:award-1,12201-2022,380391-2019,acelasi anunt de participare (F02)
+443775-2019,443775-2019,443775-2019,acelasi anunt
+448681-2019,448681-2019,448681-2019,acelasi anunt
+241617-2020,241617-2020,448681-2019,acelasi anunt de participare (F02)
+541721-2022,541721-2022,448681-2019,acelasi anunt de participare (F02)
+457783-2019,457783-2019,457783-2019,acelasi anunt
+208082-2020,208082-2020,457783-2019,acelasi anunt de participare (F02)
+350117-2020,350117-2020,457783-2019,acelasi anunt de participare (F02)
+50599-2021,50599-2021,457783-2019,acelasi anunt de participare (F02)
+181770-2021,181770-2021,457783-2019,acelasi anunt de participare (F02)
+517032-2021,517032-2021,457783-2019,acelasi anunt de participare (F02)
+237016-2022,237016-2022,457783-2019,acelasi anunt de participare (F02)
+415023-2022,415023-2022,457783-2019,acelasi anunt de participare (F02)
+ot:2022/S 145-415023:award-1,415023-2022,457783-2019,acelasi anunt de participare (F02)
+581605-2022,581605-2022,457783-2019,acelasi anunt de participare (F02)
+250887-2023,250887-2023,457783-2019,acelasi anunt de participare (F02)
+ot:2021/S 149-397727:award-5,397727-2021,511079-2019,acelasi anunt de participare (F02)
+ot:2021/S 149-397727:award-6,397727-2021,511079-2019,acelasi anunt de participare (F02)
+ot:2021/S 149-397727:award-4,397727-2021,511079-2019,acelasi anunt de participare (F02)
+ot:2021/S 149-397727:award-7,397727-2021,511079-2019,acelasi anunt de participare (F02)
+ot:2021/S 149-397727:award-8,397727-2021,511079-2019,acelasi anunt de participare (F02)
+ot:2021/S 149-397727:award-9,397727-2021,511079-2019,acelasi anunt de participare (F02)
+ot:2021/S 149-397727:award-3,397727-2021,511079-2019,acelasi anunt de participare (F02)
+ot:2021/S 149-397727:award-10,397727-2021,511079-2019,acelasi anunt de participare (F02)
+ot:2021/S 149-397727:award-11,397727-2021,511079-2019,acelasi anunt de participare (F02)
+ot:2021/S 149-397727:award-12,397727-2021,511079-2019,acelasi anunt de participare (F02)
+ot:2021/S 149-397727:award-13,397727-2021,511079-2019,acelasi anunt de participare (F02)
+ot:2021/S 149-397727:award-16,397727-2021,511079-2019,acelasi anunt de participare (F02)
+ot:2021/S 149-397727:award-14,397727-2021,511079-2019,acelasi anunt de participare (F02)
+ot:2021/S 149-397727:award-15,397727-2021,511079-2019,acelasi anunt de participare (F02)
+ot:2021/S 149-397727:award-2,397727-2021,511079-2019,acelasi anunt de participare (F02)
+ot:2021/S 149-397727:award-1,397727-2021,511079-2019,acelasi anunt de participare (F02)
+397727-2021,397727-2021,511079-2019,acelasi anunt de participare (F02)
+511079-2019,511079-2019,511079-2019,acelasi anunt
+17542-2020,17542-2020,511079-2019,acelasi anunt de participare (F02)
+339878-2020,339878-2020,511079-2019,acelasi anunt de participare (F02)
+490462-2020,490462-2020,511079-2019,acelasi anunt de participare (F02)
+513755-2020,513755-2020,511079-2019,acelasi anunt de participare (F02)
+524914-2020,524914-2020,511079-2019,acelasi anunt de participare (F02)
+23057-2021,23057-2021,511079-2019,acelasi anunt de participare (F02)
+33187-2021,33187-2021,511079-2019,acelasi anunt de participare (F02)
+39653-2021,39653-2021,511079-2019,acelasi anunt de participare (F02)
+209298-2021,209298-2021,511079-2019,acelasi anunt de participare (F02)
+559628-2021,559628-2021,511079-2019,acelasi anunt de participare (F02)
+466923-2019,466923-2019,466923-2019,acelasi anunt
+492520-2019,492520-2019,492520-2019,acelasi anunt
+523502-2019,523502-2019,523502-2019,acelasi anunt
+559977-2019,559977-2019,523502-2019,acelasi anunt de participare (F02)
+2001-2020,2001-2020,523502-2019,acelasi anunt de participare (F02)
+54266-2020,54266-2020,523502-2019,acelasi anunt de participare (F02)
+176748-2020,176748-2020,523502-2019,acelasi anunt de participare (F02)
+306637-2020,306637-2020,523502-2019,acelasi anunt de participare (F02)
+485907-2020,485907-2020,523502-2019,acelasi anunt de participare (F02)
+7235-2021,7235-2021,523502-2019,acelasi anunt de participare (F02)
+14773-2021,14773-2021,523502-2019,acelasi anunt de participare (F02)
+528009-2019,528009-2019,528009-2019,acelasi anunt
+112768-2021,112768-2021,528009-2019,acelasi anunt de participare (F02)
+ot:2021/S 045-112768:award-1,112768-2021,528009-2019,acelasi anunt de participare (F02)
+ot:2021/S 045-112768:award-2,112768-2021,528009-2019,acelasi anunt de participare (F02)
+559999-2019,559999-2019,559999-2019,acelasi anunt
+579541-2019,579541-2019,559999-2019,acelasi anunt de participare (F02)
+39877-2020,39877-2020,559999-2019,acelasi anunt de participare (F02)
+296640-2020,296640-2020,559999-2019,acelasi anunt de participare (F02)
+388682-2020,388682-2020,559999-2019,acelasi anunt de participare (F02)
+572364-2020,572364-2020,559999-2019,acelasi anunt de participare (F02)
+580768-2020,580768-2020,559999-2019,acelasi anunt de participare (F02)
+9854-2021,9854-2021,559999-2019,acelasi anunt de participare (F02)
+559700-2021,559700-2021,559999-2019,acelasi anunt de participare (F02)
+72190-2022,72190-2022,559999-2019,acelasi anunt de participare (F02)
+383558-2021,383558-2021,559999-2019,acelasi spital+castigatori+data (format vechi <-> eForms)
+579556-2019,579556-2019,579556-2019,acelasi anunt
+139345-2020,139345-2020,579556-2019,acelasi anunt de participare (F02)
+49137-2020,49137-2020,49137-2020,acelasi anunt
+270086-2020,270086-2020,49137-2020,acelasi anunt de participare (F02)
+355126-2020,355126-2020,49137-2020,acelasi anunt de participare (F02)
+508253-2020,508253-2020,49137-2020,acelasi anunt de participare (F02)
+7263-2021,7263-2021,49137-2020,acelasi anunt de participare (F02)
+14779-2021,14779-2021,49137-2020,acelasi anunt de participare (F02)
+184160-2021,184160-2021,49137-2020,acelasi anunt de participare (F02)
+49161-2020,49161-2020,49161-2020,acelasi anunt
+85484-2020,85484-2020,85484-2020,acelasi anunt
+ot:2020/S 036-085484:award-1,85484-2020,85484-2020,acelasi anunt
+ot:2020/S 036-085484:award-2,85484-2020,85484-2020,acelasi anunt
+157636-2020,157636-2020,157636-2020,acelasi anunt
+522323-2020,522323-2020,157636-2020,acelasi anunt de participare (F02)
+56291-2021,56291-2021,157636-2020,acelasi anunt de participare (F02)
+402094-2021,402094-2021,157636-2020,acelasi anunt de participare (F02)
+83221-2023,83221-2023,157636-2020,acelasi anunt de participare (F02)
+202288-2020,202288-2020,202288-2020,acelasi anunt
+181703-2021,181703-2021,202288-2020,acelasi anunt de participare (F02)
+343481-2021,343481-2021,202288-2020,acelasi anunt de participare (F02)
+89783-2022,89783-2022,202288-2020,acelasi anunt de participare (F02)
+133454-2022,133454-2022,202288-2020,acelasi anunt de participare (F02)
+171450-2022,171450-2022,202288-2020,acelasi anunt de participare (F02)
+96783-2023,96783-2023,202288-2020,acelasi anunt de participare (F02)
+142017-2023,142017-2023,202288-2020,acelasi anunt de participare (F02)
+253848-2023,253848-2023,202288-2020,acelasi anunt de participare (F02)
+109162-2024,109162-2024,202288-2020,acelasi spital+castigatori+data (format vechi <-> eForms)
+ot:00109162-2024:award-1,109162-2024,202288-2020,acelasi spital+castigatori+data (format vechi <-> eForms)
+148483-2024,148483-2024,202288-2020,acelasi spital+castigatori+data (format vechi <-> eForms)
+215071-2020,215071-2020,215071-2020,acelasi anunt
+217684-2020,217684-2020,215071-2020,acelasi anunt de participare (F02)
+25795-2021,25795-2021,215071-2020,acelasi anunt de participare (F02)
+8860-2022,8860-2022,215071-2020,acelasi anunt de participare (F02)
+ot:2022/S 005-008860:award-1,8860-2022,215071-2020,acelasi anunt de participare (F02)
+150004-2022,150004-2022,215071-2020,acelasi anunt de participare (F02)
+ot:2020/S 093-222445:award-1,222445-2020,357518-2020,acelasi anunt de participare (F02)
+357518-2020,357518-2020,357518-2020,acelasi anunt
+251753-2020,251753-2020,251753-2020,acelasi anunt
+560256-2022,560256-2022,251753-2020,acelasi anunt de participare (F02)
+ot:2022/S 197-560256:award-1,560256-2022,251753-2020,acelasi anunt de participare (F02)
+ot:2022/S 197-560256:award-2,560256-2022,251753-2020,acelasi anunt de participare (F02)
+ot:2022/S 197-560256:award-3,560256-2022,251753-2020,acelasi anunt de participare (F02)
+ot:2020/S 050-119405:award-1,119405-2020,270052-2020,erata (F14) la anuntul de participare
+270052-2020,270052-2020,270052-2020,acelasi anunt
+259994-2020,259994-2020,259994-2020,acelasi anunt
+277274-2020,277274-2020,259994-2020,acelasi anunt de participare (F02)
+614138-2020,614138-2020,259994-2020,acelasi anunt de participare (F02)
+632441-2020,632441-2020,259994-2020,acelasi anunt de participare (F02)
+100258-2021,100258-2021,259994-2020,acelasi anunt de participare (F02)
+134186-2021,134186-2021,259994-2020,acelasi anunt de participare (F02)
+192418-2021,192418-2021,259994-2020,acelasi anunt de participare (F02)
+249708-2021,249708-2021,259994-2020,acelasi anunt de participare (F02)
+ot:2021/S 095-249708:award-1,249708-2021,259994-2020,acelasi anunt de participare (F02)
+315496-2021,315496-2021,259994-2020,acelasi anunt de participare (F02)
+351714-2021,351714-2021,259994-2020,acelasi anunt de participare (F02)
+601122-2021,601122-2021,259994-2020,acelasi anunt de participare (F02)
+ot:2020/S 114-276705:award-1,276705-2020,477283-2020,acelasi anunt de participare (F02)
+477283-2020,477283-2020,477283-2020,acelasi anunt
+ot:CN1021796:award-1,CN1021796,477283-2020,"inregistrare SICAP a aceleiasi proceduri (data, castigatori, titlu)"
+324432-2020,324432-2020,324432-2020,acelasi anunt
+ot:2020/S 132-324432:award-1,324432-2020,324432-2020,acelasi anunt
+ot:CN1018397:award-1,CN1018397,324432-2020,"inregistrare SICAP a aceleiasi proceduri (data, castigatori, titlu)"
+ot:2020/S 133-326745:award-1,326745-2020,545553-2020,acelasi anunt de participare (F02)
+545553-2020,545553-2020,545553-2020,acelasi anunt
+330388-2020,330388-2020,330388-2020,acelasi anunt
+34834-2022,34834-2022,330388-2020,acelasi anunt de participare (F02)
+ot:2022/S 015-034834:award-1,34834-2022,330388-2020,acelasi anunt de participare (F02)
+62973-2022,62973-2022,330388-2020,acelasi anunt de participare (F02)
+435249-2022,435249-2022,330388-2020,acelasi anunt de participare (F02)
+597397-2022,597397-2022,330388-2020,acelasi anunt de participare (F02)
+350226-2020,350226-2020,350226-2020,acelasi anunt
+359960-2020,359960-2020,350226-2020,acelasi anunt de participare (F02)
+585331-2022,585331-2022,350226-2020,acelasi anunt de participare (F02)
+407700-2020,407700-2020,407700-2020,acelasi anunt
+ot:2020/S 168-407700:award-1,407700-2020,407700-2020,acelasi anunt
+ot:2020/S 195-471940:award-1,471940-2020,602246-2020,acelasi anunt de participare (F02)
+602246-2020,602246-2020,602246-2020,acelasi anunt
+485840-2020,485840-2020,485840-2020,acelasi anunt
+524965-2020,524965-2020,485840-2020,acelasi anunt de participare (F02)
+ot:2020/S 214-524965:award-1,524965-2020,485840-2020,acelasi anunt de participare (F02)
+ot:2020/S 214-524965:award-2,524965-2020,485840-2020,acelasi anunt de participare (F02)
+ot:2020/S 214-524965:award-3,524965-2020,485840-2020,acelasi anunt de participare (F02)
+ot:2020/S 203-493739:award-1,493739-2020,614158-2020,acelasi anunt de participare (F02)
+614158-2020,614158-2020,614158-2020,acelasi anunt
+ot:2020/S 205-499134:award-1,499134-2020,337560-2021,acelasi anunt de participare (F02)
+337560-2021,337560-2021,337560-2021,acelasi anunt
+527725-2020,527725-2020,527725-2020,acelasi anunt
+259885-2023,259885-2023,527725-2020,acelasi anunt de participare (F02)
+ot:2020/S 225-553611:award-1,553611-2020,239324-2021,acelasi anunt de participare (F02)
+239324-2021,239324-2021,239324-2021,acelasi anunt
+ot:2020/S 247-614430:award-1,614430-2020,147277-2021,erata (F14) la anuntul de participare
+147277-2021,147277-2021,147277-2021,acelasi anunt
+189250-2021,189250-2021,147277-2021,acelasi anunt de participare (F02)
+321062-2021,321062-2021,147277-2021,acelasi anunt de participare (F02)
+354579-2021,354579-2021,147277-2021,acelasi anunt de participare (F02)
+519887-2021,519887-2021,147277-2021,acelasi anunt de participare (F02)
+8198-2022,8198-2022,147277-2021,acelasi anunt de participare (F02)
+174976-2022,174976-2022,147277-2021,acelasi anunt de participare (F02)
+ot:CN1026682:award-1,CN1026682,147277-2021,"inregistrare SICAP a aceleiasi proceduri (data, castigatori, titlu)"
+ot:CN1026682:award-2,CN1026682,147277-2021,"inregistrare SICAP a aceleiasi proceduri (data, castigatori, titlu)"
+ot:CN1026682:award-3,CN1026682,147277-2021,"inregistrare SICAP a aceleiasi proceduri (data, castigatori, titlu)"
+ot:CN1026682:award-4,CN1026682,147277-2021,"inregistrare SICAP a aceleiasi proceduri (data, castigatori, titlu)"
+ot:CN1026682:award-5,CN1026682,147277-2021,"inregistrare SICAP a aceleiasi proceduri (data, castigatori, titlu)"
+ot:CN1026682:award-6,CN1026682,147277-2021,"inregistrare SICAP a aceleiasi proceduri (data, castigatori, titlu)"
+ot:CN1026682:award-7,CN1026682,147277-2021,"inregistrare SICAP a aceleiasi proceduri (data, castigatori, titlu)"
+ot:CN1026682:award-8,CN1026682,147277-2021,"inregistrare SICAP a aceleiasi proceduri (data, castigatori, titlu)"
+ot:2021/S 018-041806:award-1,41806-2021,212264-2021,acelasi anunt de participare (F02)
+ot:2021/S 018-041806:award-2,41806-2021,212264-2021,acelasi anunt de participare (F02)
+212264-2021,212264-2021,212264-2021,acelasi anunt
+257438-2021,257438-2021,212264-2021,acelasi anunt de participare (F02)
+74207-2021,74207-2021,74207-2021,acelasi anunt
+ot:2021/S 033-082519:award-1,82519-2021,258164-2021,acelasi anunt de participare (F02)
+258164-2021,258164-2021,258164-2021,acelasi anunt
+271824-2021,271824-2021,258164-2021,acelasi anunt de participare (F02)
+315431-2021,315431-2021,258164-2021,acelasi anunt de participare (F02)
+41390-2022,41390-2022,258164-2021,acelasi anunt de participare (F02)
+312646-2022,312646-2022,258164-2021,acelasi anunt de participare (F02)
+284292-2023,284292-2023,258164-2021,acelasi anunt de participare (F02)
+ot:2021/S 050-124733:award-1,124733-2021,671068-2021,acelasi anunt de participare (F02)
+ot:2021/S 050-124733:award-2,124733-2021,671068-2021,acelasi anunt de participare (F02)
+671068-2021,671068-2021,671068-2021,acelasi anunt
+ot:2021/S 052-131077:award-1,131077-2021,334189-2021,acelasi anunt de participare (F02)
+334189-2021,334189-2021,334189-2021,acelasi anunt
+151799-2021,151799-2021,151799-2021,acelasi anunt
+659708-2022,659708-2022,151799-2021,acelasi anunt de participare (F02)
+ot:2022/S 229-659708:award-1,659708-2022,151799-2021,acelasi anunt de participare (F02)
+ot:2021/S 072-183743:award-1,183743-2021,497277-2021,acelasi anunt de participare (F02)
+497277-2021,497277-2021,497277-2021,acelasi anunt
+233871-2021,233871-2021,233871-2021,acelasi anunt
+413827-2021,413827-2021,233871-2021,acelasi anunt de participare (F02)
+ot:2021/S 156-413827:award-1,413827-2021,233871-2021,acelasi anunt de participare (F02)
+595441-2021,595441-2021,233871-2021,acelasi anunt de participare (F02)
+236989-2022,236989-2022,233871-2021,acelasi anunt de participare (F02)
+435341-2022,435341-2022,233871-2021,acelasi anunt de participare (F02)
+714974-2023,714974-2023,233871-2021,acelasi anunt de participare (F02)
+251543-2021,251543-2021,251543-2021,acelasi anunt
+ot:2021/S 096-251543:award-1,251543-2021,251543-2021,acelasi anunt
+530798-2021,530798-2021,251543-2021,acelasi anunt de participare (F02)
+ot:2021/S 119-315102:award-1,315102-2021,315102-2021,acelasi anunt
+ot:2021/S 119-315102:award-2,315102-2021,315102-2021,acelasi anunt
+285429-2021,285429-2021,285429-2021,acelasi anunt
+ot:2021/S 108-285429:award-1,285429-2021,285429-2021,acelasi anunt
+285574-2021,285574-2021,285574-2021,acelasi anunt
+293858-2021,293858-2021,285574-2021,acelasi anunt de participare (F02)
+69425-2022,69425-2022,285574-2021,acelasi anunt de participare (F02)
+622301-2022,622301-2022,285574-2021,acelasi anunt de participare (F02)
+42554-2023,42554-2023,285574-2021,acelasi anunt de participare (F02)
+353221-2023,353221-2023,285574-2021,acelasi anunt de participare (F02)
+ot:2023/S 113-353221:award-1,353221-2023,285574-2021,acelasi anunt de participare (F02)
+ot:2021/S 117-306712:award-1,306712-2021,438087-2021,acelasi anunt de participare (F02)
+438087-2021,438087-2021,438087-2021,acelasi anunt
+ot:2021/S 120-316912:award-1,316912-2021,524853-2021,acelasi anunt de participare (F02)
+524853-2021,524853-2021,524853-2021,acelasi anunt
+ot:2021/S 121-320011:award-1,320011-2021,483876-2021,acelasi anunt de participare (F02)
+483876-2021,483876-2021,483876-2021,acelasi anunt
+334323-2021,334323-2021,334323-2021,acelasi anunt
+ot:2021/S 126-334323:award-1,334323-2021,334323-2021,acelasi anunt
+358197-2021,358197-2021,334323-2021,acelasi anunt de participare (F02)
+337663-2021,337663-2021,337663-2021,acelasi anunt
+730099-2022,730099-2022,337663-2021,acelasi anunt de participare (F02)
+340475-2021,340475-2021,340475-2021,acelasi anunt
+ot:2021/S 128-340475:award-1,340475-2021,340475-2021,acelasi anunt
+72156-2022,72156-2022,340475-2021,acelasi anunt de participare (F02)
+367996-2021,367996-2021,367996-2021,acelasi anunt
+ot:2021/S 138-367996:award-1,367996-2021,367996-2021,acelasi anunt
+388619-2021,388619-2021,388619-2021,acelasi anunt
+ot:2021/S 151-401365:award-1,401365-2021,542321-2021,acelasi anunt de participare (F02)
+542321-2021,542321-2021,542321-2021,acelasi anunt
+ot:2021/S 108-285066:award-1,285066-2021,435315-2021,acelasi anunt de participare (F02)
+435315-2021,435315-2021,435315-2021,acelasi anunt
+438069-2021,438069-2021,438069-2021,acelasi anunt
+ot:2021/S 167-438069:award-1,438069-2021,438069-2021,acelasi anunt
+544945-2021,544945-2021,438069-2021,acelasi anunt de participare (F02)
+440206-2021,440206-2021,440206-2021,acelasi anunt
+560252-2022,560252-2022,440206-2021,acelasi anunt de participare (F02)
+ot:2021/S 178-463875:award-1,463875-2021,14024-2022,acelasi anunt de participare (F02)
+14024-2022,14024-2022,14024-2022,acelasi anunt
+497405-2021,497405-2021,497405-2021,acelasi anunt
+135866-2022,135866-2022,497405-2021,acelasi anunt de participare (F02)
+ot:2022/S 052-135866:award-1,135866-2022,497405-2021,acelasi anunt de participare (F02)
+ot:2022/S 052-135866:award-2,135866-2022,497405-2021,acelasi anunt de participare (F02)
+327270-2022,327270-2022,497405-2021,acelasi anunt de participare (F02)
+34806-2023,34806-2023,497405-2021,acelasi anunt de participare (F02)
+125485-2023,125485-2023,497405-2021,acelasi anunt de participare (F02)
+393176-2023,393176-2023,497405-2021,acelasi anunt de participare (F02)
+ot:CN1054811:award-1,CN1054811,497405-2021,"inregistrare SICAP a aceleiasi proceduri (data, castigatori, titlu)"
+ot:CN1054811:award-2,CN1054811,497405-2021,"inregistrare SICAP a aceleiasi proceduri (data, castigatori, titlu)"
+ot:CN1054811:award-3,CN1054811,497405-2021,"inregistrare SICAP a aceleiasi proceduri (data, castigatori, titlu)"
+ot:CN1054811:award-4,CN1054811,497405-2021,"inregistrare SICAP a aceleiasi proceduri (data, castigatori, titlu)"
+ot:CN1054811:award-5,CN1054811,497405-2021,"inregistrare SICAP a aceleiasi proceduri (data, castigatori, titlu)"
+ot:CN1054811:award-6,CN1054811,497405-2021,"inregistrare SICAP a aceleiasi proceduri (data, castigatori, titlu)"
+ot:CN1054811:award-7,CN1054811,497405-2021,"inregistrare SICAP a aceleiasi proceduri (data, castigatori, titlu)"
+ot:CN1054811:award-8,CN1054811,497405-2021,"inregistrare SICAP a aceleiasi proceduri (data, castigatori, titlu)"
+ot:CN1054811:award-9,CN1054811,497405-2021,"inregistrare SICAP a aceleiasi proceduri (data, castigatori, titlu)"
+ot:2021/S 208-544731:award-1,544731-2021,69305-2022,acelasi anunt de participare (F02)
+69305-2022,69305-2022,69305-2022,acelasi anunt
+ot:2021/S 237-624706:award-1,624706-2021,130020-2022,acelasi anunt de participare (F02)
+130020-2022,130020-2022,130020-2022,acelasi anunt
+ot:2021/S 250-662342:award-1,662342-2021,106921-2022,acelasi anunt de participare (F02)
+ot:2021/S 250-662342:award-2,662342-2021,106921-2022,acelasi anunt de participare (F02)
+106921-2022,106921-2022,106921-2022,acelasi anunt
+404197-2022,404197-2022,106921-2022,acelasi anunt de participare (F02)
+485277-2022,485277-2022,106921-2022,acelasi anunt de participare (F02)
+277088-2023,277088-2023,106921-2022,acelasi anunt de participare (F02)
+561644-2023,561644-2023,106921-2022,acelasi anunt de participare (F02)
+784201-2024,784201-2024,106921-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+ot:00784201-2024:award-1,784201-2024,106921-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+ot:00784201-2024:award-2,784201-2024,106921-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+793364-2024,793364-2024,106921-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+667640-2021,667640-2021,667640-2021,acelasi anunt
+ot:2021/S 251-667350:award-1,667350-2021,687024-2022,acelasi anunt de participare (F02)
+ot:2021/S 251-667350:award-2,667350-2021,687024-2022,acelasi anunt de participare (F02)
+ot:2021/S 251-667350:award-3,667350-2021,687024-2022,acelasi anunt de participare (F02)
+687024-2022,687024-2022,687024-2022,acelasi anunt
+ot:CN1037945:award-1,CN1037945,687024-2022,"inregistrare SICAP a aceleiasi proceduri (data, castigatori, titlu)"
+9300-2022,9300-2022,9300-2022,acelasi anunt
+20643-2022,20643-2022,20643-2022,acelasi anunt
+52543-2022,52543-2022,20643-2022,acelasi anunt de participare (F02)
+233637-2022,233637-2022,20643-2022,acelasi anunt de participare (F02)
+418580-2022,418580-2022,20643-2022,acelasi anunt de participare (F02)
+608431-2022,608431-2022,20643-2022,acelasi anunt de participare (F02)
+51052-2023,51052-2023,20643-2022,acelasi anunt de participare (F02)
+247711-2023,247711-2023,20643-2022,acelasi anunt de participare (F02)
+250433-2023,250433-2023,20643-2022,acelasi anunt de participare (F02)
+443176-2023,443176-2023,20643-2022,acelasi anunt de participare (F02)
+642264-2023,642264-2023,20643-2022,acelasi anunt de participare (F02)
+658748-2023,658748-2023,20643-2022,acelasi anunt de participare (F02)
+ot:2023/S 209-658748:award-1,658748-2023,20643-2022,acelasi anunt de participare (F02)
+38334-2024,38334-2024,20643-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+ot:00038334-2024:award-1,38334-2024,20643-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+29922-2024,29922-2024,20643-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+419469-2024,419469-2024,20643-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+209107-2024,209107-2024,20643-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+228444-2024,228444-2024,20643-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+621430-2024,621430-2024,20643-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+12570-2025,12570-2025,20643-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+71898-2024,71898-2024,52568-2022,acelasi ContractFolderID
+78845-2024,78845-2024,52568-2022,acelasi ContractFolderID
+ot:00078845-2024:award-1,78845-2024,52568-2022,acelasi ContractFolderID
+ot:00078845-2024:award-2,78845-2024,52568-2022,acelasi ContractFolderID
+52568-2022,52568-2022,52568-2022,acelasi anunt
+163898-2022,163898-2022,52568-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+94835-2023,94835-2023,52568-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+ot:2023/S 032-094835:award-1,94835-2023,52568-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+ot:2023/S 032-094835:award-2,94835-2023,52568-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+76628-2022,76628-2022,76628-2022,acelasi anunt
+ot:2022/S 030-076628:award-1,76628-2022,76628-2022,acelasi anunt
+274898-2023,274898-2023,76628-2022,acelasi anunt de participare (F02)
+107209-2022,107209-2022,107209-2022,acelasi anunt
+ot:2022/S 041-107209:award-1,107209-2022,107209-2022,acelasi anunt
+147175-2022,147175-2022,147175-2022,acelasi anunt
+ot:2022/S 056-147175:award-1,147175-2022,147175-2022,acelasi anunt
+ot:2022/S 056-147175:award-2,147175-2022,147175-2022,acelasi anunt
+ot:2022/S 058-152420:award-1,152420-2022,312569-2022,acelasi anunt de participare (F02)
+312569-2022,312569-2022,312569-2022,acelasi anunt
+466594-2022,466594-2022,312569-2022,acelasi anunt de participare (F02)
+11268-2023,11268-2023,312569-2022,acelasi anunt de participare (F02)
+330913-2023,330913-2023,312569-2022,acelasi anunt de participare (F02)
+542997-2023,542997-2023,312569-2022,acelasi anunt de participare (F02)
+624529-2023,624529-2023,312569-2022,acelasi anunt de participare (F02)
+ot:CN1040466:award-1,CN1040466,312569-2022,"inregistrare SICAP a aceleiasi proceduri (data, castigatori, titlu)"
+ot:CN1040466:award-2,CN1040466,312569-2022,"inregistrare SICAP a aceleiasi proceduri (data, castigatori, titlu)"
+ot:CN1040466:award-3,CN1040466,312569-2022,"inregistrare SICAP a aceleiasi proceduri (data, castigatori, titlu)"
+ot:CN1040466:award-4,CN1040466,312569-2022,"inregistrare SICAP a aceleiasi proceduri (data, castigatori, titlu)"
+ot:CN1040466:award-5,CN1040466,312569-2022,"inregistrare SICAP a aceleiasi proceduri (data, castigatori, titlu)"
+171118-2022,171118-2022,171118-2022,acelasi anunt
+ot:2022/S 065-171118:award-1,171118-2022,171118-2022,acelasi anunt
+ot:2022/S 065-171118:award-2,171118-2022,171118-2022,acelasi anunt
+315594-2024,315594-2024,270851-2022,acelasi ContractFolderID
+ot:00315594-2024:award-1,315594-2024,270851-2022,acelasi ContractFolderID
+ot:00315594-2024:award-2,315594-2024,270851-2022,acelasi ContractFolderID
+ot:00315594-2024:award-3,315594-2024,270851-2022,acelasi ContractFolderID
+27430-2025,27430-2025,270851-2022,acelasi ContractFolderID
+312644-2024,312644-2024,270851-2022,acelasi ContractFolderID
+521584-2024,521584-2024,270851-2022,acelasi ContractFolderID
+113377-2025,113377-2025,270851-2022,acelasi ContractFolderID
+518411-2025,518411-2025,270851-2022,acelasi ContractFolderID
+92508-2026,92508-2026,270851-2022,acelasi ContractFolderID
+84903-2026,84903-2026,270851-2022,acelasi ContractFolderID
+160477-2026,160477-2026,270851-2022,acelasi ContractFolderID
+399272-2026,399272-2026,270851-2022,acelasi ContractFolderID
+270851-2022,270851-2022,270851-2022,acelasi anunt
+285965-2022,285965-2022,270851-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+541724-2022,541724-2022,270851-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+ot:2022/S 191-541724:award-1,541724-2022,270851-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+ot:2022/S 191-541724:award-2,541724-2022,270851-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+ot:2022/S 191-541724:award-3,541724-2022,270851-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+16849-2023,16849-2023,270851-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+597861-2023,597861-2023,270851-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+260017-2022,260017-2022,260017-2022,acelasi anunt
+ot:2022/S 094-260017:award-1,260017-2022,260017-2022,acelasi anunt
+277533-2022,277533-2022,260017-2022,acelasi anunt de participare (F02)
+39146-2023,39146-2023,260017-2022,acelasi anunt de participare (F02)
+ot:2022/S 095-262748:award-1,262748-2022,672156-2023,acelasi anunt de participare (F02)
+672156-2023,672156-2023,672156-2023,acelasi anunt
+689764-2023,689764-2023,672156-2023,acelasi anunt de participare (F02)
+202737-2026,202737-2026,672156-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
+208615-2026,208615-2026,672156-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
+362310-2026,362310-2026,672156-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
+ot:2022/S 096-265523:award-1,265523-2022,687286-2023,acelasi anunt de participare (F02)
+ot:2022/S 096-265523:award-2,265523-2022,687286-2023,acelasi anunt de participare (F02)
+687286-2023,687286-2023,687286-2023,acelasi anunt
+ot:CN1042641:award-1,CN1042641,687286-2023,"inregistrare SICAP a aceleiasi proceduri (data, castigatori, titlu)"
+ot:CN1042641:award-2,CN1042641,687286-2023,"inregistrare SICAP a aceleiasi proceduri (data, castigatori, titlu)"
+316372-2022,316372-2022,316372-2022,acelasi anunt
+ot:2022/S 112-316372:award-1,316372-2022,316372-2022,acelasi anunt
+376952-2022,376952-2022,376952-2022,acelasi anunt
+ot:2022/S 132-376952:award-1,376952-2022,376952-2022,acelasi anunt
+83556-2023,83556-2023,376952-2022,acelasi anunt de participare (F02)
+432853-2022,432853-2022,432853-2022,acelasi anunt
+506445-2022,506445-2022,432853-2022,acelasi anunt de participare (F02)
+527325-2022,527325-2022,432853-2022,acelasi anunt de participare (F02)
+ot:2022/S 186-527325:award-1,527325-2022,432853-2022,acelasi anunt de participare (F02)
+ot:2022/S 186-527325:award-2,527325-2022,432853-2022,acelasi anunt de participare (F02)
+615119-2022,615119-2022,432853-2022,acelasi anunt de participare (F02)
+654954-2022,654954-2022,432853-2022,acelasi anunt de participare (F02)
+12412-2023,12412-2023,432853-2022,acelasi anunt de participare (F02)
+94491-2023,94491-2023,432853-2022,acelasi anunt de participare (F02)
+159807-2023,159807-2023,432853-2022,acelasi anunt de participare (F02)
+375285-2023,375285-2023,432853-2022,acelasi anunt de participare (F02)
+534412-2023,534412-2023,432853-2022,acelasi anunt de participare (F02)
+65808-2024,65808-2024,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+81202-2024,81202-2024,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+ot:00081202-2024:award-1,81202-2024,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+ot:00081202-2024:award-2,81202-2024,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+331330-2024,331330-2024,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+232718-2024,232718-2024,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+588711-2024,588711-2024,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+106026-2025,106026-2025,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+163662-2025,163662-2025,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+292596-2025,292596-2025,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+45251-2025,45251-2025,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+58213-2025,58213-2025,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+150424-2026,150424-2026,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+823423-2025,823423-2025,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+133184-2026,133184-2026,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+211424-2026,211424-2026,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+547294-2026,547294-2026,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+23632-2024,23632-2024,492929-2022,acelasi ContractFolderID
+ot:00023632-2024:award-1,23632-2024,492929-2022,acelasi ContractFolderID
+416968-2024,416968-2024,492929-2022,acelasi ContractFolderID
+492929-2022,492929-2022,492929-2022,acelasi anunt
+ot:2022/S 174-492929:award-1,492929-2022,492929-2022,acelasi anunt
+686754-2022,686754-2022,492929-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+640476-2023,640476-2023,492929-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+187412-2024,187412-2024,581400-2022,acelasi ContractFolderID
+ot:00187412-2024:award-1,187412-2024,581400-2022,acelasi ContractFolderID
+389041-2024,389041-2024,581400-2022,acelasi ContractFolderID
+581400-2022,581400-2022,581400-2022,acelasi anunt
+612038-2022,612038-2022,581400-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+18045-2023,18045-2023,581400-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+ot:2023/S 008-018045:award-1,18045-2023,581400-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+534936-2022,534936-2022,534936-2022,acelasi anunt
+ot:2022/S 189-534936:award-1,534936-2022,534936-2022,acelasi anunt
+ot:2022/S 189-534936:award-2,534936-2022,534936-2022,acelasi anunt
+ot:2022/S 189-534936:award-3,534936-2022,534936-2022,acelasi anunt
+ot:2022/S 191-541212:award-1,541212-2022,394899-2023,acelasi anunt de participare (F02)
+ot:2022/S 191-541212:award-2,541212-2022,394899-2023,acelasi anunt de participare (F02)
+394899-2023,394899-2023,394899-2023,acelasi anunt
+48812-2026,48812-2026,394899-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
+ot:2022/S 192-544199:award-1,544199-2022,329146-2023,acelasi anunt de participare (F02)
+329146-2023,329146-2023,329146-2023,acelasi anunt
+640680-2022,640680-2022,640680-2022,acelasi anunt
+ot:2022/S 223-640680:award-1,640680-2022,640680-2022,acelasi anunt
+ot:2022/S 228-653258:award-1,653258-2022,292090-2023,acelasi anunt de participare (F02)
+292090-2023,292090-2023,292090-2023,acelasi anunt
+19719-2026,19719-2026,115195-2023,acelasi ContractFolderID
+565971-2025,565971-2025,115195-2023,acelasi ContractFolderID
+236296-2026,236296-2026,115195-2023,acelasi ContractFolderID
+115195-2023,115195-2023,115195-2023,acelasi anunt
+175215-2023,175215-2023,175215-2023,acelasi anunt
+ot:2023/S 060-175215:award-1,175215-2023,175215-2023,acelasi anunt
+ot:2023/S 060-177886:award-1,177886-2023,482241-2023,acelasi anunt de participare (F02)
+482241-2023,482241-2023,482241-2023,acelasi anunt
+559990-2023,559990-2023,482241-2023,acelasi anunt de participare (F02)
+643999-2023,643999-2023,482241-2023,acelasi anunt de participare (F02)
+701720-2023,701720-2023,482241-2023,acelasi anunt de participare (F02)
+635073-2024,635073-2024,482241-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
+648645-2024,648645-2024,482241-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
+715383-2024,715383-2024,482241-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
+761688-2024,761688-2024,482241-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
+ot:00761688-2024:award-1,761688-2024,482241-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
+ot:2023/S 062-184492:award-1,184492-2023,542575-2023,acelasi anunt de participare (F02)
+542575-2023,542575-2023,542575-2023,acelasi anunt
+551918-2023,551918-2023,542575-2023,acelasi anunt de participare (F02)
+227549-2024,227549-2024,261454-2023,acelasi ContractFolderID
+427224-2024,427224-2024,261454-2023,acelasi ContractFolderID
+232016-2024,232016-2024,261454-2023,acelasi ContractFolderID
+ot:00232016-2024:award-1,232016-2024,261454-2023,acelasi ContractFolderID
+603224-2024,603224-2024,261454-2023,acelasi ContractFolderID
+62028-2025,62028-2025,261454-2023,acelasi ContractFolderID
+257672-2025,257672-2025,261454-2023,acelasi ContractFolderID
+295523-2026,295523-2026,261454-2023,acelasi ContractFolderID
+530253-2026,530253-2026,261454-2023,acelasi ContractFolderID
+261454-2023,261454-2023,261454-2023,acelasi anunt
+ot:2023/S 085-261454:award-1,261454-2023,261454-2023,acelasi anunt
+443958-2023,443958-2023,261454-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
+605250-2023,605250-2023,261454-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
+253252-2023,253252-2023,253252-2023,acelasi anunt
+ot:2023/S 086-265253:award-1,265253-2023,706411-2023,acelasi anunt de participare (F02)
+706411-2023,706411-2023,706411-2023,acelasi anunt
+714517-2023,714517-2023,706411-2023,acelasi anunt de participare (F02)
+68480-2025,68480-2025,706411-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
+77050-2025,77050-2025,706411-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
+735858-2025,735858-2025,706411-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
+ot:2023/S 098-305954:award-1,305954-2023,654702-2023,acelasi anunt de participare (F02)
+654702-2023,654702-2023,654702-2023,acelasi anunt
+662969-2023,662969-2023,654702-2023,acelasi anunt de participare (F02)
+697285-2023,697285-2023,654702-2023,acelasi anunt de participare (F02)
+324343-2023,324343-2023,324343-2023,acelasi anunt
+ot:2023/S 103-324343:award-1,324343-2023,324343-2023,acelasi anunt
+ot:2023/S 103-324343:award-2,324343-2023,324343-2023,acelasi anunt
+76025-2024,76025-2024,477828-2023,acelasi ContractFolderID
+81194-2024,81194-2024,477828-2023,acelasi ContractFolderID
+ot:00081194-2024:award-1,81194-2024,477828-2023,acelasi ContractFolderID
+477828-2023,477828-2023,477828-2023,acelasi anunt
+486801-2023,486801-2023,477828-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
+ot:2023/S 154-486801:award-1,486801-2023,477828-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
+89115-2024,89115-2024,512864-2023,acelasi ContractFolderID
+ot:00089115-2024:award-1,89115-2024,512864-2023,acelasi ContractFolderID
+ot:00089115-2024:award-2,89115-2024,512864-2023,acelasi ContractFolderID
+90765-2024,90765-2024,512864-2023,acelasi ContractFolderID
+33170-2025,33170-2025,512864-2023,acelasi ContractFolderID
+44022-2025,44022-2025,512864-2023,acelasi ContractFolderID
+512864-2023,512864-2023,512864-2023,acelasi anunt
+590765-2023,590765-2023,512864-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
+ot:2023/S 189-590765:award-1,590765-2023,512864-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
+ot:2023/S 189-590765:award-2,590765-2023,512864-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
+144930-2024,144930-2024,564268-2023,acelasi ContractFolderID
+159800-2024,159800-2024,564268-2023,acelasi ContractFolderID
+289464-2024,289464-2024,564268-2023,acelasi ContractFolderID
+386626-2024,386626-2024,564268-2023,acelasi ContractFolderID
+116955-2025,116955-2025,564268-2023,acelasi ContractFolderID
+264883-2025,264883-2025,564268-2023,acelasi ContractFolderID
+342667-2025,342667-2025,564268-2023,acelasi ContractFolderID
+564268-2023,564268-2023,564268-2023,acelasi anunt
+ot:2023/S 180-564268:award-1,564268-2023,564268-2023,acelasi anunt
+ot:2023/S 180-564268:award-2,564268-2023,564268-2023,acelasi anunt
+577078-2023,577078-2023,577078-2023,acelasi anunt
+601624-2023,601624-2023,601624-2023,acelasi anunt
+ot:2023/S 193-601624:award-1,601624-2023,601624-2023,acelasi anunt
+334893-2024,334893-2024,334893-2024,acelasi anunt
+ot:00334893-2024:award-1,334893-2024,334893-2024,acelasi anunt
+ot:00334893-2024:award-2,334893-2024,334893-2024,acelasi anunt
+112711-2024,112711-2024,112711-2024,acelasi anunt
+ot:00112711-2024:award-1,112711-2024,112711-2024,acelasi anunt
+26669-2024,26669-2024,26669-2024,acelasi anunt
+ot:00026669-2024:award-1,26669-2024,26669-2024,acelasi anunt
+47579-2024,47579-2024,47579-2024,acelasi anunt
+ot:00047579-2024:award-1,47579-2024,47579-2024,acelasi anunt
+35371-2024,35371-2024,35371-2024,acelasi anunt
+ot:00035371-2024:award-1,35371-2024,35371-2024,acelasi anunt
+7697-2024,7697-2024,7697-2024,acelasi anunt
+ot:00007697-2024:award-1,7697-2024,7697-2024,acelasi anunt
+ot:00107566-2024:award-1,107566-2024,733557-2024,acelasi ContractFolderID
+733557-2024,733557-2024,733557-2024,acelasi anunt
+151142-2024,151142-2024,151142-2024,acelasi anunt
+ot:00151142-2024:award-1,151142-2024,151142-2024,acelasi anunt
+173022-2024,173022-2024,173022-2024,acelasi anunt
+233718-2024,233718-2024,173022-2024,acelasi ContractFolderID
+86392-2025,86392-2025,173022-2024,acelasi ContractFolderID
+277632-2026,277632-2026,173022-2024,acelasi ContractFolderID
+92604-2026,92604-2026,173022-2024,acelasi ContractFolderID
+184237-2024,184237-2024,184237-2024,acelasi anunt
+ot:00184237-2024:award-1,184237-2024,184237-2024,acelasi anunt
+ot:00184237-2024:award-2,184237-2024,184237-2024,acelasi anunt
+227729-2024,227729-2024,227729-2024,acelasi anunt
+ot:00227729-2024:award-1,227729-2024,227729-2024,acelasi anunt
+361979-2025,361979-2025,227729-2024,acelasi ContractFolderID
+267211-2026,267211-2026,227729-2024,acelasi ContractFolderID
+374010-2025,374010-2025,227729-2024,acelasi ContractFolderID
+282937-2024,282937-2024,282937-2024,acelasi anunt
+ot:00282937-2024:award-1,282937-2024,282937-2024,acelasi anunt
+247641-2024,247641-2024,247641-2024,acelasi anunt
+ot:00247641-2024:award-1,247641-2024,247641-2024,acelasi anunt
+301305-2024,301305-2024,301305-2024,acelasi anunt
+ot:00301305-2024:award-1,301305-2024,301305-2024,acelasi anunt
+ot:00301305-2024:award-2,301305-2024,301305-2024,acelasi anunt
+280027-2024,280027-2024,280027-2024,acelasi anunt
+ot:00280027-2024:award-1,280027-2024,280027-2024,acelasi anunt
+ot:00280027-2024:award-2,280027-2024,280027-2024,acelasi anunt
+ot:00280027-2024:award-3,280027-2024,280027-2024,acelasi anunt
+226450-2025,226450-2025,280027-2024,acelasi ContractFolderID
+326863-2024,326863-2024,326863-2024,acelasi anunt
+ot:00325779-2024:award-1,325779-2024,64999-2025,acelasi ContractFolderID
+ot:00325779-2024:award-2,325779-2024,64999-2025,acelasi ContractFolderID
+ot:00325779-2024:award-3,325779-2024,64999-2025,acelasi ContractFolderID
+64999-2025,64999-2025,64999-2025,acelasi anunt
+115911-2025,115911-2025,64999-2025,acelasi ContractFolderID
+246101-2025,246101-2025,64999-2025,acelasi ContractFolderID
+435349-2025,435349-2025,64999-2025,acelasi ContractFolderID
+477538-2025,477538-2025,64999-2025,acelasi ContractFolderID
+55357-2026,55357-2026,64999-2025,acelasi ContractFolderID
+723356-2025,723356-2025,64999-2025,acelasi ContractFolderID
+76963-2026,76963-2026,64999-2025,acelasi ContractFolderID
+ot:CN1069532:award-1,CN1069532,64999-2025,"inregistrare SICAP a aceleiasi proceduri (data, castigatori, titlu)"
+187328-2025,187328-2025,427001-2024,acelasi ContractFolderID
+427001-2024,427001-2024,427001-2024,acelasi anunt
+431677-2024,431677-2024,427001-2024,acelasi ContractFolderID
+67185-2025,67185-2025,427001-2024,acelasi ContractFolderID
+524378-2026,524378-2026,427001-2024,acelasi ContractFolderID
+409378-2024,409378-2024,409378-2024,acelasi anunt
+ot:00409378-2024:award-1,409378-2024,409378-2024,acelasi anunt
+ot:00409378-2024:award-2,409378-2024,409378-2024,acelasi anunt
+364163-2025,364163-2025,409378-2024,acelasi ContractFolderID
+451135-2025,451135-2025,409378-2024,acelasi ContractFolderID
+131163-2026,131163-2026,409378-2024,acelasi ContractFolderID
+437866-2024,437866-2024,437866-2024,acelasi anunt
+ot:00437866-2024:award-1,437866-2024,437866-2024,acelasi anunt
+444464-2024,444464-2024,444464-2024,acelasi anunt
+566190-2025,566190-2025,444464-2024,acelasi ContractFolderID
+661084-2024,661084-2024,661084-2024,acelasi anunt
+ot:00661084-2024:award-1,661084-2024,661084-2024,acelasi anunt
+563533-2025,563533-2025,563533-2025,acelasi anunt
+301-2025,301-2025,301-2025,acelasi anunt
+165313-2025,165313-2025,165313-2025,acelasi anunt
+77277-2026,77277-2026,77277-2026,acelasi anunt
+312097-2025,312097-2025,312097-2025,acelasi anunt
+404729-2025,404729-2025,404729-2025,acelasi anunt
+754552-2025,754552-2025,404729-2025,acelasi ContractFolderID
+14962-2026,14962-2026,404729-2025,acelasi ContractFolderID
+333383-2026,333383-2026,404729-2025,acelasi ContractFolderID
+562244-2026,562244-2026,404729-2025,acelasi ContractFolderID
+419712-2025,419712-2025,419712-2025,acelasi anunt
+595063-2025,595063-2025,419712-2025,acelasi ContractFolderID
+445507-2025,445507-2025,445507-2025,acelasi anunt
+275417-2026,275417-2026,445507-2025,acelasi ContractFolderID
+32525-2026,32525-2026,445507-2025,acelasi ContractFolderID
+653754-2025,653754-2025,445507-2025,acelasi ContractFolderID
+465909-2026,465909-2026,445507-2025,acelasi ContractFolderID
+471547-2026,471547-2026,445507-2025,acelasi ContractFolderID
+618947-2025,618947-2025,618947-2025,acelasi anunt
+828587-2025,828587-2025,618947-2025,acelasi ContractFolderID
+571310-2025,571310-2025,571310-2025,acelasi anunt
+573014-2025,573014-2025,573014-2025,acelasi anunt
+642277-2025,642277-2025,573014-2025,acelasi ContractFolderID
+658056-2025,658056-2025,658056-2025,acelasi anunt
+15864-2026,15864-2026,658056-2025,acelasi ContractFolderID
+489733-2026,489733-2026,658056-2025,acelasi ContractFolderID
+671108-2025,671108-2025,658056-2025,acelasi ContractFolderID
+663597-2025,663597-2025,663597-2025,acelasi anunt
+782825-2025,782825-2025,782825-2025,acelasi anunt
+746807-2025,746807-2025,746807-2025,acelasi anunt
+838071-2025,838071-2025,838071-2025,acelasi anunt
+839779-2025,839779-2025,839779-2025,acelasi anunt
+195312-2026,195312-2026,839779-2025,acelasi ContractFolderID
+215331-2026,215331-2026,839779-2025,acelasi ContractFolderID
+417367-2026,417367-2026,839779-2025,acelasi ContractFolderID
+457249-2026,457249-2026,839779-2025,acelasi ContractFolderID
+467104-2026,467104-2026,839779-2025,acelasi ContractFolderID
+609991-2026,609991-2026,839779-2025,acelasi ContractFolderID
+636844-2026,636844-2026,636844-2026,acelasi anunt
+38160-2026,38160-2026,38160-2026,acelasi anunt
+110768-2026,110768-2026,110768-2026,acelasi anunt
+119773-2026,119773-2026,110768-2026,acelasi ContractFolderID
+55588-2026,55588-2026,55588-2026,acelasi anunt
+50713-2026,50713-2026,50713-2026,acelasi anunt
+360662-2026,360662-2026,360662-2026,acelasi anunt
+121858-2026,121858-2026,121858-2026,acelasi anunt
+163975-2026,163975-2026,163975-2026,acelasi anunt
+221044-2026,221044-2026,163975-2026,acelasi ContractFolderID
+304886-2026,304886-2026,304886-2026,acelasi anunt
+426893-2026,426893-2026,426893-2026,acelasi anunt
+429590-2026,429590-2026,429590-2026,acelasi anunt
+541782-2026,541782-2026,541782-2026,acelasi anunt
+537766-2026,537766-2026,537766-2026,acelasi anunt
+630102-2026,630102-2026,630102-2026,acelasi anunt
+ot:CAN1027468:award-1,CAN1027468,CAN1027468,acelasi anunt
+ot:CAN1030139:award-1,CAN1030139,CAN1030139,acelasi anunt
+ot:CAN1030140:award-1,CAN1030140,CAN1030140,acelasi anunt
+ot:CAN1030143:award-1,CAN1030143,CAN1030143,acelasi anunt
+ot:2020/S 097-231908:award-1,231908-2020,231908-2020,acelasi anunt
+231908-2020,231908-2020,231908-2020,acelasi anunt
+ot:CAN1033611:award-1,CAN1033611,CAN1033611,acelasi anunt
+ot:CAN1035346:award-1,CAN1035346,CAN1035346,acelasi anunt
+ot:SCN1070768:award-1,SCN1070768,SCN1070768,acelasi anunt
+ot:CAN1039427:award-1,CAN1039427,CAN1039427,acelasi anunt
+ot:CAN1040803:award-1,CAN1040803,CAN1040803,acelasi anunt
+ot:CN1024588:award-1,CN1024588,CN1024588,acelasi anunt
+ot:CN1021011:award-1,CN1021011,CN1021011,acelasi anunt
+ot:CN1025455:award-1,CN1025455,CN1025455,acelasi anunt
+ot:CN1025455:award-10,CN1025455,CN1025455,acelasi anunt
+ot:CN1025455:award-11,CN1025455,CN1025455,acelasi anunt
+ot:CN1025455:award-12,CN1025455,CN1025455,acelasi anunt
+ot:CN1025455:award-13,CN1025455,CN1025455,acelasi anunt
+ot:CN1025455:award-14,CN1025455,CN1025455,acelasi anunt
+ot:CN1025455:award-15,CN1025455,CN1025455,acelasi anunt
+ot:CN1025455:award-16,CN1025455,CN1025455,acelasi anunt
+ot:CN1025455:award-17,CN1025455,CN1025455,acelasi anunt
+ot:CN1025455:award-18,CN1025455,CN1025455,acelasi anunt
+ot:CN1025455:award-19,CN1025455,CN1025455,acelasi anunt
+ot:CN1025455:award-2,CN1025455,CN1025455,acelasi anunt
+ot:CN1025455:award-3,CN1025455,CN1025455,acelasi anunt
+ot:CN1025455:award-4,CN1025455,CN1025455,acelasi anunt
+ot:CN1025455:award-5,CN1025455,CN1025455,acelasi anunt
+ot:CN1025455:award-6,CN1025455,CN1025455,acelasi anunt
+ot:CN1025455:award-7,CN1025455,CN1025455,acelasi anunt
+ot:CN1025455:award-8,CN1025455,CN1025455,acelasi anunt
+ot:CN1025455:award-9,CN1025455,CN1025455,acelasi anunt
+ot:CAN1043434:award-1,CAN1043434,CAN1043434,acelasi anunt
+ot:SCN1072130:award-1,SCN1072130,SCN1072130,acelasi anunt
+ot:SCN1072130:award-2,SCN1072130,SCN1072130,acelasi anunt
+ot:SCN1072130:award-3,SCN1072130,SCN1072130,acelasi anunt
+ot:SCN1072130:award-4,SCN1072130,SCN1072130,acelasi anunt
+ot:SCN1072130:award-5,SCN1072130,SCN1072130,acelasi anunt
+ot:SCN1072130:award-6,SCN1072130,SCN1072130,acelasi anunt
+ot:SCN1072130:award-7,SCN1072130,SCN1072130,acelasi anunt
+ot:SCN1072130:award-8,SCN1072130,SCN1072130,acelasi anunt
+ot:SCN1072130:award-9,SCN1072130,SCN1072130,acelasi anunt
+ot:CAN1044438:award-1,CAN1044438,CAN1044438,acelasi anunt
+ot:CAN1044448:award-1,CAN1044448,CAN1044448,acelasi anunt
+ot:CN1026013:award-1,CN1026013,CN1026013,acelasi anunt
+ot:CAN1046539:award-1,CAN1046539,CAN1046539,acelasi anunt
+ot:CAN1046552:award-1,CAN1046552,CAN1046552,acelasi anunt
+ot:CAN1047603:award-1,CAN1047603,CAN1047603,acelasi anunt
+ot:CAN1047891:award-1,CAN1047891,CAN1047891,acelasi anunt
+ot:CAN1048090:award-1,CAN1048090,CAN1048090,acelasi anunt
+ot:CAN1048302:award-1,CAN1048302,CAN1048302,acelasi anunt
+ot:CAN1048327:award-1,CAN1048327,CAN1048327,acelasi anunt
+ot:2021/S 013-028488:award-1,28488-2021,28488-2021,acelasi anunt
+28488-2021,28488-2021,28488-2021,acelasi anunt
+ot:CAN1048456:award-1,CAN1048456,CAN1048456,acelasi anunt
+ot:CAN1049062:award-1,CAN1049062,CAN1049062,acelasi anunt
+ot:CAN1049682:award-1,CAN1049682,CAN1049682,acelasi anunt
+ot:SCN1081343:award-1,SCN1081343,SCN1081343,acelasi anunt
+ot:SCN1077581:award-1,SCN1077581,SCN1077581,acelasi anunt
+ot:SCN1081900:award-1,SCN1081900,SCN1081900,acelasi anunt
+ot:CAN1050732:award-1,CAN1050732,CAN1050732,acelasi anunt
+ot:2021/S 046-116154:award-1,116154-2021,116154-2021,acelasi anunt
+116154-2021,116154-2021,116154-2021,acelasi anunt
+ot:CAN1051145:award-1,CAN1051145,CAN1051145,acelasi anunt
+ot:CAN1051161:award-1,CAN1051161,CAN1051161,acelasi anunt
+ot:2021/S 045-112936:award-1,112936-2021,112936-2021,acelasi anunt
+112936-2021,112936-2021,112936-2021,acelasi anunt
+ot:CN1025052:award-1,CN1025052,602246-2020,"inregistrare SICAP a procedurii 602246-2020 (castigatori, valoare, titlu, perioada)"
+ot:CN1025911:award-1,CN1025911,74207-2021,"inregistrare SICAP a procedurii 74207-2021 (castigatori, valoare, titlu, perioada)"
+ot:CN1025911:award-2,CN1025911,74207-2021,"inregistrare SICAP a procedurii 74207-2021 (castigatori, valoare, titlu, perioada)"
+ot:CN1029086:award-1,CN1029086,CN1029086,acelasi anunt
+ot:CN1029086:award-2,CN1029086,CN1029086,acelasi anunt
+ot:CN1025381:award-1,CN1025381,614158-2020,"inregistrare SICAP a procedurii 614158-2020 (castigatori, valoare, titlu, perioada)"
+ot:CN1025447:award-1,CN1025447,CN1025447,acelasi anunt
+ot:CAN1053618:award-1,CAN1053618,CAN1053618,acelasi anunt
+ot:CAN1053922:award-1,CAN1053922,CAN1053922,acelasi anunt
+ot:CAN1054041:award-1,CAN1054041,CAN1054041,acelasi anunt
+ot:CN1026797:award-1,CN1026797,CN1026797,acelasi anunt
+ot:CAN1055600:award-1,CAN1055600,CAN1055600,acelasi anunt
+ot:SCN1082487:award-1,SCN1082487,SCN1082487,acelasi anunt
+ot:SCN1082487:award-2,SCN1082487,SCN1082487,acelasi anunt
+ot:SCN1082487:award-3,SCN1082487,SCN1082487,acelasi anunt
+ot:SCN1082487:award-4,SCN1082487,SCN1082487,acelasi anunt
+ot:SCN1082487:award-5,SCN1082487,SCN1082487,acelasi anunt
+ot:CN1027899:award-1,CN1027899,212264-2021,"inregistrare SICAP a procedurii 212264-2021 (castigatori, valoare, titlu, perioada)"
+ot:CN1027899:award-2,CN1027899,212264-2021,"inregistrare SICAP a procedurii 212264-2021 (castigatori, valoare, titlu, perioada)"
+ot:CN1027899:award-3,CN1027899,212264-2021,"inregistrare SICAP a procedurii 212264-2021 (castigatori, valoare, titlu, perioada)"
+ot:CN1029341:award-1,CN1029341,285429-2021,"inregistrare SICAP a procedurii 285429-2021 (castigatori, valoare, titlu, perioada)"
+ot:SCN1081811:award-1,SCN1081811,SCN1081811,acelasi anunt
+ot:SCNA1019130:award-1,SCNA1019130,SCNA1019130,acelasi anunt
+ot:SCNA1019130:award-10,SCNA1019130,SCNA1019130,acelasi anunt
+ot:SCNA1019130:award-11,SCNA1019130,SCNA1019130,acelasi anunt
+ot:SCNA1019130:award-12,SCNA1019130,SCNA1019130,acelasi anunt
+ot:SCNA1019130:award-13,SCNA1019130,SCNA1019130,acelasi anunt
+ot:SCNA1019130:award-14,SCNA1019130,SCNA1019130,acelasi anunt
+ot:SCNA1019130:award-15,SCNA1019130,SCNA1019130,acelasi anunt
+ot:SCNA1019130:award-16,SCNA1019130,SCNA1019130,acelasi anunt
+ot:SCNA1019130:award-17,SCNA1019130,SCNA1019130,acelasi anunt
+ot:SCNA1019130:award-2,SCNA1019130,SCNA1019130,acelasi anunt
+ot:SCNA1019130:award-3,SCNA1019130,SCNA1019130,acelasi anunt
+ot:SCNA1019130:award-4,SCNA1019130,SCNA1019130,acelasi anunt
+ot:SCNA1019130:award-5,SCNA1019130,SCNA1019130,acelasi anunt
+ot:SCNA1019130:award-6,SCNA1019130,SCNA1019130,acelasi anunt
+ot:SCNA1019130:award-7,SCNA1019130,SCNA1019130,acelasi anunt
+ot:SCNA1019130:award-8,SCNA1019130,SCNA1019130,acelasi anunt
+ot:SCNA1019130:award-9,SCNA1019130,SCNA1019130,acelasi anunt
+ot:CAN1058706:award-1,CAN1058706,CAN1058706,acelasi anunt
+ot:CN1028158:award-1,CN1028158,CN1028158,acelasi anunt
+ot:CN1028158:award-2,CN1028158,CN1028158,acelasi anunt
+ot:CAN1060264:award-1,CAN1060264,CAN1060264,acelasi anunt
+ot:CAN1060269:award-1,CAN1060269,CAN1060269,acelasi anunt
+ot:CAN1060273:award-1,CAN1060273,CAN1060273,acelasi anunt
+ot:SCN1090751:award-1,SCN1090751,SCN1090751,acelasi anunt
+ot:SCN1083765:award-1,SCN1083765,SCN1083765,acelasi anunt
+ot:SCN1083765:award-2,SCN1083765,SCN1083765,acelasi anunt
+ot:CN1029187:award-1,CN1029187,334189-2021,"inregistrare SICAP a procedurii 334189-2021 (castigatori, valoare, titlu, perioada)"
+ot:SCN1085096:award-1,SCN1085096,SCN1085096,acelasi anunt
+ot:SCN1085582:award-1,SCN1085582,SCN1085582,acelasi anunt
+ot:SCN1085582:award-2,SCN1085582,SCN1085582,acelasi anunt
+ot:CAN1061521:award-1,CAN1061521,CAN1061521,acelasi anunt
+ot:CAN1061599:award-1,CAN1061599,CAN1061599,acelasi anunt
+ot:CAN1061907:award-1,CAN1061907,CAN1061907,acelasi anunt
+ot:CAN1063148:award-1,CAN1063148,CAN1063148,acelasi anunt
+ot:CN1030357:award-1,CN1030357,388619-2021,"inregistrare SICAP a procedurii 388619-2021 (castigatori, valoare, titlu, perioada)"
+ot:CAN1063427:award-1,CAN1063427,CAN1063427,acelasi anunt
+ot:CAN1064029:award-1,CAN1064029,CAN1064029,acelasi anunt
+ot:CN1032038:award-1,CN1032038,483876-2021,"inregistrare SICAP a procedurii 483876-2021 (castigatori, valoare, titlu, perioada)"
+ot:CAN1064946:award-1,CAN1064946,CAN1064946,acelasi anunt
+ot:CAN1066020:award-1,CAN1066020,CAN1066020,acelasi anunt
+ot:CAN1066077:award-1,CAN1066077,CAN1066077,acelasi anunt
+ot:CAN1067908:award-1,CAN1067908,CAN1067908,acelasi anunt
+ot:SCN1090211:award-1,SCN1090211,SCN1090211,acelasi anunt
+ot:CAN1069459:award-1,CAN1069459,CAN1069459,acelasi anunt
+ot:CN1034175:award-1,CN1034175,107209-2022,"inregistrare SICAP a procedurii 107209-2022 (castigatori, valoare, titlu, perioada)"
+ot:CN1038341:award-1,CN1038341,CN1038341,acelasi anunt
+ot:SCN1093581:award-1,SCN1093581,SCN1093581,acelasi anunt
+ot:SCN1093581:award-2,SCN1093581,SCN1093581,acelasi anunt
+ot:SCN1093581:award-3,SCN1093581,SCN1093581,acelasi anunt
+ot:SCN1093581:award-4,SCN1093581,SCN1093581,acelasi anunt
+ot:SCN1094175:award-1,SCN1094175,SCN1094175,acelasi anunt
+ot:CAN1071642:award-1,CAN1071642,CAN1071642,acelasi anunt
+ot:SCN1100086:award-1,SCN1100086,SCN1100086,acelasi anunt
+ot:CAN1072311:award-1,CAN1072311,CAN1072311,acelasi anunt
+ot:CAN1073441:award-1,CAN1073441,CAN1073441,acelasi anunt
+ot:SCN1096879:award-1,SCN1096879,SCN1096879,acelasi anunt
+ot:SCN1096879:award-2,SCN1096879,SCN1096879,acelasi anunt
+ot:SCN1096879:award-3,SCN1096879,SCN1096879,acelasi anunt
+ot:SCN1096879:award-4,SCN1096879,SCN1096879,acelasi anunt
+ot:SCN1098938:award-1,SCN1098938,SCN1098938,acelasi anunt
+ot:SCN1098938:award-2,SCN1098938,SCN1098938,acelasi anunt
+ot:SCN1098938:award-3,SCN1098938,SCN1098938,acelasi anunt
+ot:CAN1076794:award-1,CAN1076794,CAN1076794,acelasi anunt
+ot:CN1037895:award-1,CN1037895,CN1037895,acelasi anunt
+ot:CN1037895:award-2,CN1037895,CN1037895,acelasi anunt
+ot:SCN1109127:award-1,SCN1109127,SCN1109127,acelasi anunt
+ot:CAN1082587:award-1,CAN1082587,CAN1082587,acelasi anunt
+ot:CAN1082611:award-1,CAN1082611,CAN1082587,"inregistrare SICAP duplicata (aceeasi zi, valoare, titlu)"
+ot:CAN1084416:award-1,CAN1084416,CAN1084416,acelasi anunt
+ot:CAN1084419:award-1,CAN1084419,CAN1084419,acelasi anunt
+ot:SCN1107376:award-1,SCN1107376,SCN1107376,acelasi anunt
+ot:SCN1107376:award-2,SCN1107376,SCN1107376,acelasi anunt
+ot:SCN1105785:award-1,SCN1105785,SCN1105785,acelasi anunt
+ot:SCN1110833:award-1,SCN1110833,SCN1110833,acelasi anunt
+ot:CAN1034553:award-1,CAN1034553,CAN1034553,acelasi anunt
+ot:CAN1034553:award-10,CAN1034553,CAN1034553,acelasi anunt
+ot:CAN1034553:award-11,CAN1034553,CAN1034553,acelasi anunt
+ot:CAN1034553:award-12,CAN1034553,CAN1034553,acelasi anunt
+ot:CAN1034553:award-13,CAN1034553,CAN1034553,acelasi anunt
+ot:CAN1034553:award-14,CAN1034553,CAN1034553,acelasi anunt
+ot:CAN1034553:award-15,CAN1034553,CAN1034553,acelasi anunt
+ot:CAN1034553:award-16,CAN1034553,CAN1034553,acelasi anunt
+ot:CAN1034553:award-17,CAN1034553,CAN1034553,acelasi anunt
+ot:CAN1034553:award-18,CAN1034553,CAN1034553,acelasi anunt
+ot:CAN1034553:award-19,CAN1034553,CAN1034553,acelasi anunt
+ot:CAN1034553:award-2,CAN1034553,CAN1034553,acelasi anunt
+ot:CAN1034553:award-20,CAN1034553,CAN1034553,acelasi anunt
+ot:CAN1034553:award-21,CAN1034553,CAN1034553,acelasi anunt
+ot:CAN1034553:award-22,CAN1034553,CAN1034553,acelasi anunt
+ot:CAN1034553:award-3,CAN1034553,CAN1034553,acelasi anunt
+ot:CAN1034553:award-4,CAN1034553,CAN1034553,acelasi anunt
+ot:CAN1034553:award-5,CAN1034553,CAN1034553,acelasi anunt
+ot:CAN1034553:award-6,CAN1034553,CAN1034553,acelasi anunt
+ot:CAN1034553:award-7,CAN1034553,CAN1034553,acelasi anunt
+ot:CAN1034553:award-8,CAN1034553,CAN1034553,acelasi anunt
+ot:CAN1034553:award-9,CAN1034553,CAN1034553,acelasi anunt
+ot:SCN1107550:award-1,SCN1107550,SCN1107550,acelasi anunt
+ot:SCN1107550:award-2,SCN1107550,SCN1107550,acelasi anunt
+ot:SCN1107550:award-3,SCN1107550,SCN1107550,acelasi anunt
+ot:SCN1107550:award-4,SCN1107550,SCN1107550,acelasi anunt
+ot:SCN1107550:award-5,SCN1107550,SCN1107550,acelasi anunt
+ot:SCN1107550:award-6,SCN1107550,SCN1107550,acelasi anunt
+ot:CAN1091990:award-1,CAN1091990,CAN1091990,acelasi anunt
+ot:CAN1095596:award-1,CAN1095596,CAN1095596,acelasi anunt
+ot:SCN1120114:award-1,SCN1120114,SCN1120114,acelasi anunt
+ot:SCN1120114:award-2,SCN1120114,SCN1120114,acelasi anunt
+ot:CN1051782:award-1,CN1051782,CN1051782,acelasi anunt
+ot:CAN1098044:award-1,CAN1098044,CAN1098044,acelasi anunt
+ot:CAN1099072:award-1,CAN1099072,CAN1099072,acelasi anunt
+ot:CAN1099209:award-1,CAN1099209,CAN1099209,acelasi anunt
+ot:CN1050586:award-1,CN1050586,601624-2023,"inregistrare SICAP a procedurii 601624-2023 (castigatori, valoare, titlu, perioada)"
+ot:CAN1102807:award-1,CAN1102807,CAN1102807,acelasi anunt
+ot:CN1047778:award-1,CN1047778,329146-2023,"inregistrare SICAP a procedurii 329146-2023 (castigatori, valoare, titlu, perioada)"
+ot:CN1050028:award-1,CN1050028,115195-2023,"inregistrare SICAP a procedurii 115195-2023 (castigatori, valoare, titlu, perioada)"
+ot:CN1055066:award-1,CN1055066,CN1055066,acelasi anunt
+ot:CN1050577:award-1,CN1050577,CN1050577,acelasi anunt
+ot:2023/S 110-340982:award-1,340982-2023,340982-2023,acelasi anunt
+340982-2023,340982-2023,340982-2023,acelasi anunt
+ot:CAN1108009:award-1,CAN1108009,CAN1108009,acelasi anunt
+ot:CAN1109035:award-1,CAN1109035,CAN1109035,acelasi anunt
+ot:CN1054086:award-1,CN1054086,CN1054086,acelasi anunt
+ot:CAN1110011:award-1,CAN1110011,CAN1110011,acelasi anunt
+ot:CN1054780:award-1,CN1054780,CN1054780,acelasi anunt
+ot:CN1054780:award-2,CN1054780,CN1054780,acelasi anunt
+ot:CAN1111333:award-1,CAN1111333,CAN1111333,acelasi anunt
+ot:CN1055639:award-1,CN1055639,CN1055639,acelasi anunt
+ot:CN1055639:award-2,CN1055639,CN1055639,acelasi anunt
+ot:CAN1114154:award-1,CAN1114154,CAN1114154,acelasi anunt
+ot:CN1060953:award-1,CN1060953,CN1060953,acelasi anunt
+ot:CAN1115232:award-1,CAN1115232,CAN1115232,acelasi anunt
+ot:CN1058748:award-1,CN1058748,CN1058748,acelasi anunt
+ot:SCN1131536:award-1,SCN1131536,SCN1131536,acelasi anunt
+ot:CAN1119995:award-1,CAN1119995,CAN1119995,acelasi anunt
+ot:SCN1130912:award-1,SCN1130912,SCN1130912,acelasi anunt
+ot:SCN1130912:award-2,SCN1130912,SCN1130912,acelasi anunt
+ot:SCN1130912:award-3,SCN1130912,SCN1130912,acelasi anunt
+ot:SCN1130912:award-4,SCN1130912,SCN1130912,acelasi anunt
+ot:CAN1120661:award-1,CAN1120661,CAN1120661,acelasi anunt
+ot:SCN1133195:award-1,SCN1133195,SCN1133195,acelasi anunt
+ot:CN1059992:award-1,CN1059992,CN1059992,acelasi anunt
+ot:CAN1122203:award-1,CAN1122203,CAN1122203,acelasi anunt
+ot:CAN1122247:award-1,CAN1122247,CAN1122247,acelasi anunt
+ot:SCN1135341:award-1,SCN1135341,SCN1135341,acelasi anunt
+ot:CAN1124278:award-1,CAN1124278,CAN1124278,acelasi anunt
+ot:CN1059329:award-1,CN1059329,CN1059329,acelasi anunt
+ot:SCN1135870:award-1,SCN1135870,SCN1135870,acelasi anunt
+ot:CAN1126214:award-1,CAN1126214,CAN1126214,acelasi anunt
+ot:CAN1127844:award-1,CAN1127844,CAN1127844,acelasi anunt
+ot:CAN1129334:award-1,CAN1129334,CAN1129334,acelasi anunt
+ot:CAN1129377:award-1,CAN1129377,CAN1129377,acelasi anunt
+ot:SCN1109502:award-1,SCN1109502,SCN1109502,acelasi anunt
+ot:CAN1129607:award-1,CAN1129607,409378-2024,"inregistrare SICAP a procedurii 409378-2024 (castigatori, valoare, titlu, perioada)"
+ot:CAN1129607:award-2,CAN1129607,409378-2024,"inregistrare SICAP a procedurii 409378-2024 (castigatori, valoare, titlu, perioada)"
+ot:CAN1129814:award-1,CAN1129814,CAN1129814,acelasi anunt
+ot:SCN1150795:award-1,SCN1150795,SCN1150795,acelasi anunt
+ot:SCN1150795:award-2,SCN1150795,SCN1150795,acelasi anunt
+ot:SCN1150795:award-3,SCN1150795,SCN1150795,acelasi anunt
+ot:CN1066408:award-1,CN1066408,CN1066408,acelasi anunt
+ot:CAN1134469:award-1,CAN1134469,CAN1134469,acelasi anunt
+ot:CAN1135152:award-1,CAN1135152,CAN1135152,acelasi anunt
+ot:SCNA1112859:award-1,SCNA1112859,SCNA1112859,acelasi anunt
+ot:SCNA1112859:award-2,SCNA1112859,SCNA1112859,acelasi anunt
+ot:CAN1136511:award-1,CAN1136511,CAN1136511,acelasi anunt
+ot:CAN1137044:award-1,CAN1137044,CAN1137044,acelasi anunt
+ot:CAN1138998:award-1,CAN1138998,CAN1138998,acelasi anunt
+ot:CAN1139675:award-1,CAN1139675,CAN1139675,acelasi anunt

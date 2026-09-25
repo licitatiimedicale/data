@@ -1,5 +1,18 @@
 # Changelog
 
+## v2.0.1 — 2026-09-26
+
+Small correction, same 292 procedures, same dates, same 12-month window (18 procedures, 24.96 M RON). An independent audit of the same method applied to medical devices (CPV 33*) found rules that also touched this set:
+
+- `valoare_atribuita_ron` for procedures with several award notices is now the **largest published total** (previously the first notice by identifier). 29 rows changed; for one non-framework row (259994-2020, Tulcea) the value used in totals changes from 865,548 to 1,540,332 RON (dataset total 418.3 → 419.0 M RON).
+- Implausible contract dates (before 2010 or more than 5 years before the first notice) are ignored with a note; none in this set.
+- Award notices whose XML says no lot was awarded no longer take winners from the SICAP record; no effect here.
+- Wider rule for merging the old-format (F03) and eForms notices of the same procedure; no grouping changed here, only the relation label in `deseuri_grupare.csv`.
+- New `avertisment` flags for implausible published values and durations (8 rows flagged). Values stay as published.
+- The build script is published in `scripts/build_procedures.py`. Details in `metodologie_ro.txt`, section "Actualizare 2.0.1".
+
+The figures given to the press on 2026-09-23 (18 procedures expiring, 24.96 M RON, 292 procedures) are unchanged.
+
 ## v2 — 2026-09-23
 
 **All v1 files have been withdrawn from `data/` and moved to `archive/v1/`. They contain systematic errors and must not be used.**

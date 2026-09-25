@@ -197,7 +197,7 @@ ot:2021/S 045-112768:award-2,112768-2021,528009-2019,acelasi anunt de participar
 9854-2021,9854-2021,559999-2019,acelasi anunt de participare (F02)
 559700-2021,559700-2021,559999-2019,acelasi anunt de participare (F02)
 72190-2022,72190-2022,559999-2019,acelasi anunt de participare (F02)
-383558-2021,383558-2021,559999-2019,acelasi spital+castigatori+data (format vechi <-> eForms)
+383558-2021,383558-2021,559999-2019,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
 579556-2019,579556-2019,579556-2019,acelasi anunt
 139345-2020,139345-2020,579556-2019,acelasi anunt de participare (F02)
 49137-2020,49137-2020,49137-2020,acelasi anunt
@@ -225,9 +225,9 @@ ot:2020/S 036-085484:award-2,85484-2020,85484-2020,acelasi anunt
 96783-2023,96783-2023,202288-2020,acelasi anunt de participare (F02)
 142017-2023,142017-2023,202288-2020,acelasi anunt de participare (F02)
 253848-2023,253848-2023,202288-2020,acelasi anunt de participare (F02)
-109162-2024,109162-2024,202288-2020,acelasi spital+castigatori+data (format vechi <-> eForms)
-ot:00109162-2024:award-1,109162-2024,202288-2020,acelasi spital+castigatori+data (format vechi <-> eForms)
-148483-2024,148483-2024,202288-2020,acelasi spital+castigatori+data (format vechi <-> eForms)
+109162-2024,109162-2024,202288-2020,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
+ot:00109162-2024:award-1,109162-2024,202288-2020,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
+148483-2024,148483-2024,202288-2020,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
 215071-2020,215071-2020,215071-2020,acelasi anunt
 217684-2020,217684-2020,215071-2020,acelasi anunt de participare (F02)
 25795-2021,25795-2021,215071-2020,acelasi anunt de participare (F02)
@@ -404,10 +404,10 @@ ot:2021/S 250-662342:award-2,662342-2021,106921-2022,acelasi anunt de participar
 485277-2022,485277-2022,106921-2022,acelasi anunt de participare (F02)
 277088-2023,277088-2023,106921-2022,acelasi anunt de participare (F02)
 561644-2023,561644-2023,106921-2022,acelasi anunt de participare (F02)
-784201-2024,784201-2024,106921-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-ot:00784201-2024:award-1,784201-2024,106921-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-ot:00784201-2024:award-2,784201-2024,106921-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-793364-2024,793364-2024,106921-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+784201-2024,784201-2024,106921-2022,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
+ot:00784201-2024:award-1,784201-2024,106921-2022,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
+ot:00784201-2024:award-2,784201-2024,106921-2022,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
+793364-2024,793364-2024,106921-2022,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
 667640-2021,667640-2021,667640-2021,acelasi anunt
 ot:2021/S 251-667350:award-1,667350-2021,687024-2022,acelasi anunt de participare (F02)
 ot:2021/S 251-667350:award-2,667350-2021,687024-2022,acelasi anunt de participare (F02)
@@ -427,23 +427,23 @@ ot:CN1037945:award-1,CN1037945,687024-2022,"inregistrare SICAP a aceleiasi proce
 642264-2023,642264-2023,20643-2022,acelasi anunt de participare (F02)
 658748-2023,658748-2023,20643-2022,acelasi anunt de participare (F02)
 ot:2023/S 209-658748:award-1,658748-2023,20643-2022,acelasi anunt de participare (F02)
-38334-2024,38334-2024,20643-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-ot:00038334-2024:award-1,38334-2024,20643-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-29922-2024,29922-2024,20643-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-419469-2024,419469-2024,20643-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-209107-2024,209107-2024,20643-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-228444-2024,228444-2024,20643-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-621430-2024,621430-2024,20643-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-12570-2025,12570-2025,20643-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+38334-2024,38334-2024,20643-2022,"acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)"
+ot:00038334-2024:award-1,38334-2024,20643-2022,"acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)"
+29922-2024,29922-2024,20643-2022,"acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)"
+419469-2024,419469-2024,20643-2022,"acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)"
+209107-2024,209107-2024,20643-2022,"acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)"
+228444-2024,228444-2024,20643-2022,"acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)"
+621430-2024,621430-2024,20643-2022,"acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)"
+12570-2025,12570-2025,20643-2022,"acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)"
 71898-2024,71898-2024,52568-2022,acelasi ContractFolderID
 78845-2024,78845-2024,52568-2022,acelasi ContractFolderID
 ot:00078845-2024:award-1,78845-2024,52568-2022,acelasi ContractFolderID
 ot:00078845-2024:award-2,78845-2024,52568-2022,acelasi ContractFolderID
 52568-2022,52568-2022,52568-2022,acelasi anunt
-163898-2022,163898-2022,52568-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-94835-2023,94835-2023,52568-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-ot:2023/S 032-094835:award-1,94835-2023,52568-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-ot:2023/S 032-094835:award-2,94835-2023,52568-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+163898-2022,163898-2022,52568-2022,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
+94835-2023,94835-2023,52568-2022,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
+ot:2023/S 032-094835:award-1,94835-2023,52568-2022,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
+ot:2023/S 032-094835:award-2,94835-2023,52568-2022,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
 76628-2022,76628-2022,76628-2022,acelasi anunt
 ot:2022/S 030-076628:award-1,76628-2022,76628-2022,acelasi anunt
 274898-2023,274898-2023,76628-2022,acelasi anunt de participare (F02)
@@ -481,13 +481,13 @@ ot:00315594-2024:award-3,315594-2024,270851-2022,acelasi ContractFolderID
 160477-2026,160477-2026,270851-2022,acelasi ContractFolderID
 399272-2026,399272-2026,270851-2022,acelasi ContractFolderID
 270851-2022,270851-2022,270851-2022,acelasi anunt
-285965-2022,285965-2022,270851-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-541724-2022,541724-2022,270851-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-ot:2022/S 191-541724:award-1,541724-2022,270851-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-ot:2022/S 191-541724:award-2,541724-2022,270851-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-ot:2022/S 191-541724:award-3,541724-2022,270851-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-16849-2023,16849-2023,270851-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-597861-2023,597861-2023,270851-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+285965-2022,285965-2022,270851-2022,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
+541724-2022,541724-2022,270851-2022,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
+ot:2022/S 191-541724:award-1,541724-2022,270851-2022,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
+ot:2022/S 191-541724:award-2,541724-2022,270851-2022,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
+ot:2022/S 191-541724:award-3,541724-2022,270851-2022,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
+16849-2023,16849-2023,270851-2022,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
+597861-2023,597861-2023,270851-2022,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
 260017-2022,260017-2022,260017-2022,acelasi anunt
 ot:2022/S 094-260017:award-1,260017-2022,260017-2022,acelasi anunt
 277533-2022,277533-2022,260017-2022,acelasi anunt de participare (F02)
@@ -495,9 +495,9 @@ ot:2022/S 094-260017:award-1,260017-2022,260017-2022,acelasi anunt
 ot:2022/S 095-262748:award-1,262748-2022,672156-2023,acelasi anunt de participare (F02)
 672156-2023,672156-2023,672156-2023,acelasi anunt
 689764-2023,689764-2023,672156-2023,acelasi anunt de participare (F02)
-202737-2026,202737-2026,672156-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
-208615-2026,208615-2026,672156-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
-362310-2026,362310-2026,672156-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
+202737-2026,202737-2026,672156-2023,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
+208615-2026,208615-2026,672156-2023,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
+362310-2026,362310-2026,672156-2023,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
 ot:2022/S 096-265523:award-1,265523-2022,687286-2023,acelasi anunt de participare (F02)
 ot:2022/S 096-265523:award-2,265523-2022,687286-2023,acelasi anunt de participare (F02)
 687286-2023,687286-2023,687286-2023,acelasi anunt
@@ -520,37 +520,37 @@ ot:2022/S 186-527325:award-2,527325-2022,432853-2022,acelasi anunt de participar
 159807-2023,159807-2023,432853-2022,acelasi anunt de participare (F02)
 375285-2023,375285-2023,432853-2022,acelasi anunt de participare (F02)
 534412-2023,534412-2023,432853-2022,acelasi anunt de participare (F02)
-65808-2024,65808-2024,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-81202-2024,81202-2024,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-ot:00081202-2024:award-1,81202-2024,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-ot:00081202-2024:award-2,81202-2024,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-331330-2024,331330-2024,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-232718-2024,232718-2024,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-588711-2024,588711-2024,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-106026-2025,106026-2025,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-163662-2025,163662-2025,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-292596-2025,292596-2025,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-45251-2025,45251-2025,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-58213-2025,58213-2025,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-150424-2026,150424-2026,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-823423-2025,823423-2025,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-133184-2026,133184-2026,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-211424-2026,211424-2026,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-547294-2026,547294-2026,432853-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+65808-2024,65808-2024,432853-2022,"acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)"
+81202-2024,81202-2024,432853-2022,"acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)"
+ot:00081202-2024:award-1,81202-2024,432853-2022,"acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)"
+ot:00081202-2024:award-2,81202-2024,432853-2022,"acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)"
+331330-2024,331330-2024,432853-2022,"acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)"
+232718-2024,232718-2024,432853-2022,"acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)"
+588711-2024,588711-2024,432853-2022,"acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)"
+106026-2025,106026-2025,432853-2022,"acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)"
+163662-2025,163662-2025,432853-2022,"acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)"
+292596-2025,292596-2025,432853-2022,"acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)"
+45251-2025,45251-2025,432853-2022,"acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)"
+58213-2025,58213-2025,432853-2022,"acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)"
+150424-2026,150424-2026,432853-2022,"acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)"
+823423-2025,823423-2025,432853-2022,"acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)"
+133184-2026,133184-2026,432853-2022,"acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)"
+211424-2026,211424-2026,432853-2022,"acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)"
+547294-2026,547294-2026,432853-2022,"acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)"
 23632-2024,23632-2024,492929-2022,acelasi ContractFolderID
 ot:00023632-2024:award-1,23632-2024,492929-2022,acelasi ContractFolderID
 416968-2024,416968-2024,492929-2022,acelasi ContractFolderID
 492929-2022,492929-2022,492929-2022,acelasi anunt
 ot:2022/S 174-492929:award-1,492929-2022,492929-2022,acelasi anunt
-686754-2022,686754-2022,492929-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-640476-2023,640476-2023,492929-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+686754-2022,686754-2022,492929-2022,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
+640476-2023,640476-2023,492929-2022,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
 187412-2024,187412-2024,581400-2022,acelasi ContractFolderID
 ot:00187412-2024:award-1,187412-2024,581400-2022,acelasi ContractFolderID
 389041-2024,389041-2024,581400-2022,acelasi ContractFolderID
 581400-2022,581400-2022,581400-2022,acelasi anunt
-612038-2022,612038-2022,581400-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-18045-2023,18045-2023,581400-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
-ot:2023/S 008-018045:award-1,18045-2023,581400-2022,acelasi spital+castigatori+data (format vechi <-> eForms)
+612038-2022,612038-2022,581400-2022,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
+18045-2023,18045-2023,581400-2022,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
+ot:2023/S 008-018045:award-1,18045-2023,581400-2022,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
 534936-2022,534936-2022,534936-2022,acelasi anunt
 ot:2022/S 189-534936:award-1,534936-2022,534936-2022,acelasi anunt
 ot:2022/S 189-534936:award-2,534936-2022,534936-2022,acelasi anunt
@@ -558,7 +558,7 @@ ot:2022/S 189-534936:award-3,534936-2022,534936-2022,acelasi anunt
 ot:2022/S 191-541212:award-1,541212-2022,394899-2023,acelasi anunt de participare (F02)
 ot:2022/S 191-541212:award-2,541212-2022,394899-2023,acelasi anunt de participare (F02)
 394899-2023,394899-2023,394899-2023,acelasi anunt
-48812-2026,48812-2026,394899-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
+48812-2026,48812-2026,394899-2023,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
 ot:2022/S 192-544199:award-1,544199-2022,329146-2023,acelasi anunt de participare (F02)
 329146-2023,329146-2023,329146-2023,acelasi anunt
 640680-2022,640680-2022,640680-2022,acelasi anunt
@@ -576,11 +576,11 @@ ot:2023/S 060-177886:award-1,177886-2023,482241-2023,acelasi anunt de participar
 559990-2023,559990-2023,482241-2023,acelasi anunt de participare (F02)
 643999-2023,643999-2023,482241-2023,acelasi anunt de participare (F02)
 701720-2023,701720-2023,482241-2023,acelasi anunt de participare (F02)
-635073-2024,635073-2024,482241-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
-648645-2024,648645-2024,482241-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
-715383-2024,715383-2024,482241-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
-761688-2024,761688-2024,482241-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
-ot:00761688-2024:award-1,761688-2024,482241-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
+635073-2024,635073-2024,482241-2023,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
+648645-2024,648645-2024,482241-2023,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
+715383-2024,715383-2024,482241-2023,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
+761688-2024,761688-2024,482241-2023,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
+ot:00761688-2024:award-1,761688-2024,482241-2023,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
 ot:2023/S 062-184492:award-1,184492-2023,542575-2023,acelasi anunt de participare (F02)
 542575-2023,542575-2023,542575-2023,acelasi anunt
 551918-2023,551918-2023,542575-2023,acelasi anunt de participare (F02)
@@ -595,15 +595,15 @@ ot:00232016-2024:award-1,232016-2024,261454-2023,acelasi ContractFolderID
 530253-2026,530253-2026,261454-2023,acelasi ContractFolderID
 261454-2023,261454-2023,261454-2023,acelasi anunt
 ot:2023/S 085-261454:award-1,261454-2023,261454-2023,acelasi anunt
-443958-2023,443958-2023,261454-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
-605250-2023,605250-2023,261454-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
+443958-2023,443958-2023,261454-2023,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
+605250-2023,605250-2023,261454-2023,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
 253252-2023,253252-2023,253252-2023,acelasi anunt
 ot:2023/S 086-265253:award-1,265253-2023,706411-2023,acelasi anunt de participare (F02)
 706411-2023,706411-2023,706411-2023,acelasi anunt
 714517-2023,714517-2023,706411-2023,acelasi anunt de participare (F02)
-68480-2025,68480-2025,706411-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
-77050-2025,77050-2025,706411-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
-735858-2025,735858-2025,706411-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
+68480-2025,68480-2025,706411-2023,"acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)"
+77050-2025,77050-2025,706411-2023,"acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)"
+735858-2025,735858-2025,706411-2023,"acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)"
 ot:2023/S 098-305954:award-1,305954-2023,654702-2023,acelasi anunt de participare (F02)
 654702-2023,654702-2023,654702-2023,acelasi anunt
 662969-2023,662969-2023,654702-2023,acelasi anunt de participare (F02)
@@ -615,8 +615,8 @@ ot:2023/S 103-324343:award-2,324343-2023,324343-2023,acelasi anunt
 81194-2024,81194-2024,477828-2023,acelasi ContractFolderID
 ot:00081194-2024:award-1,81194-2024,477828-2023,acelasi ContractFolderID
 477828-2023,477828-2023,477828-2023,acelasi anunt
-486801-2023,486801-2023,477828-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
-ot:2023/S 154-486801:award-1,486801-2023,477828-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
+486801-2023,486801-2023,477828-2023,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
+ot:2023/S 154-486801:award-1,486801-2023,477828-2023,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
 89115-2024,89115-2024,512864-2023,acelasi ContractFolderID
 ot:00089115-2024:award-1,89115-2024,512864-2023,acelasi ContractFolderID
 ot:00089115-2024:award-2,89115-2024,512864-2023,acelasi ContractFolderID
@@ -624,9 +624,9 @@ ot:00089115-2024:award-2,89115-2024,512864-2023,acelasi ContractFolderID
 33170-2025,33170-2025,512864-2023,acelasi ContractFolderID
 44022-2025,44022-2025,512864-2023,acelasi ContractFolderID
 512864-2023,512864-2023,512864-2023,acelasi anunt
-590765-2023,590765-2023,512864-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
-ot:2023/S 189-590765:award-1,590765-2023,512864-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
-ot:2023/S 189-590765:award-2,590765-2023,512864-2023,acelasi spital+castigatori+data (format vechi <-> eForms)
+590765-2023,590765-2023,512864-2023,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
+ot:2023/S 189-590765:award-1,590765-2023,512864-2023,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
+ot:2023/S 189-590765:award-2,590765-2023,512864-2023,"acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)"
 144930-2024,144930-2024,564268-2023,acelasi ContractFolderID
 159800-2024,159800-2024,564268-2023,acelasi ContractFolderID
 289464-2024,289464-2024,564268-2023,acelasi ContractFolderID

@@ -2,7 +2,7 @@
 
 Open dataset of public procurement procedures for **hazardous medical waste services (CPV 90524\*) awarded by public hospitals in Romania**, 2018–2026, built from the TED award notices (read directly from XML) and the SICAP records published through OpenTender/OCDS.
 
-**Version 2 (2026-09-23) replaces version 1 entirely.** Version 1 contained systematic errors (framework values counted once per winner, subsequent award notices counted as new contracts, non-hospital authorities, non-medical CPV codes, unawarded procedures, a uniform 24-month duration assumption). They were found by a journalist during pre-publication verification; we confirmed them and rebuilt the dataset. The details are in [CHANGELOG.md](CHANGELOG.md). The v1 files are kept in `archive/v1/` for traceability only and must not be used.
+**Version 2 (2026-09-23, corrected 2.0.1 on 2026-09-26) replaces version 1 entirely.** Version 1 contained systematic errors (framework values counted once per winner, subsequent award notices counted as new contracts, non-hospital authorities, non-medical CPV codes, unawarded procedures, a uniform 24-month duration assumption). They were found by a journalist during pre-publication verification; we confirmed them and rebuilt the dataset. The details are in [CHANGELOG.md](CHANGELOG.md). The v1 files are kept in `archive/v1/` for traceability only and must not be used.
 
 **The CPV 33\* (medical devices) dataset of v1 is withdrawn** until it is rebuilt with the same method.
 
@@ -18,7 +18,8 @@ Open dataset of public procurement procedures for **hazardous medical waste serv
 | `data/deseuri_excluse.csv` | Every excluded notice, with the reason | 38 |
 | `data/deseuri_ferestre_12_luni.csv` | Procedures expiring / awarded per 12-month window since 2021 | 6 |
 | `data/deseuri_verificari.txt` | Automated checks run before publication | — |
-| `metodologie_ro.txt` | Full methodology, Romanian: sources, grouping rules, value and duration rules, limitations | — |
+| `metodologie_ro.txt` | Full methodology, Romanian: sources, grouping rules, value and duration rules, limitations; section "Actualizare 2.0.1" | — |
+| `scripts/build_procedures.py` | The build script (Python; reads the TED XML archive, the OpenTender CSVs and our SQLite index) | — |
 | `CHANGELOG.md` | What was wrong in v1 and what changed | — |
 | `archive/v1/` | Withdrawn v1 files, README and methodology | — |
 

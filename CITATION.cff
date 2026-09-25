@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 title: "Romanian Hospital Medical Waste Procurement Dataset (CPV 90524*), v2"
-version: "2.0.0"
-date-released: "2026-09-23"
+version: "2.0.1"
+date-released: "2026-09-26"
 message: "If you use this dataset, please cite it using the metadata below. Version 1 (June 2026) is withdrawn; see CHANGELOG.md."
 authors:
   - name: "Licitații Medicale"

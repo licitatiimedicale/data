@@ -2,7 +2,7 @@
 
 Open dataset of public procurement procedures for **hazardous medical waste services (CPV 90524\*) awarded by public hospitals in Romania**, 2018–2026, built from the TED award notices (read directly from XML) and the SICAP records published through OpenTender/OCDS.
 
-**Version 2 (2026-09-23, corrected 2.0.1 on 2026-09-26) replaces version 1 entirely.** Version 1 contained systematic errors (framework values counted once per winner, subsequent award notices counted as new contracts, non-hospital authorities, non-medical CPV codes, unawarded procedures, a uniform 24-month duration assumption). They were found by a journalist during pre-publication verification; we confirmed them and rebuilt the dataset. The details are in [CHANGELOG.md](CHANGELOG.md). The v1 files are kept in `archive/v1/` for traceability only and must not be used.
+**Version 2 (2026-09-23, corrected 2.0.1/2.0.2 on 2026-09-26) replaces version 1 entirely.** Version 1 contained systematic errors (framework values counted once per winner, subsequent award notices counted as new contracts, non-hospital authorities, non-medical CPV codes, unawarded procedures, a uniform 24-month duration assumption). They were found by a journalist during pre-publication verification; we confirmed them and rebuilt the dataset. The details are in [CHANGELOG.md](CHANGELOG.md). The v1 files are kept in `archive/v1/` for traceability only and must not be used.
 
 **The CPV 33\* (medical devices) dataset of v1 is withdrawn** until it is rebuilt with the same method.
 
@@ -12,7 +12,7 @@ Open dataset of public procurement procedures for **hazardous medical waste serv
 
 | File | Content | Rows |
 |---|---|---|
-| `data/deseuri_medicale_spitale_2018_2026.csv` | One row per procedure: hospital, winners, values, framework flag, dates, duration and its source, expiry, notes, TED link | 292 |
+| `data/deseuri_medicale_spitale_2018_2026.csv` | One row per procedure: hospital, winners, values, framework flag, dates, duration and its source, expiry, notes, TED link | 291 |
 | `data/deseuri_expira_12_luni.csv` | Subset expiring between 2026-09-23 and 2027-09-23 | 18 |
 | `data/deseuri_grupare.csv` | Every raw record of our database → procedure it belongs to, with the relation (traceability) | 1,022 |
 | `data/deseuri_excluse.csv` | Every excluded notice, with the reason | 38 |

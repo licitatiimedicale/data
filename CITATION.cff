@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 title: "Romanian Hospital Medical Waste Procurement Dataset (CPV 90524*), v2"
-version: "2.0.1"
+version: "2.0.2"
 date-released: "2026-09-26"
 message: "If you use this dataset, please cite it using the metadata below. Version 1 (June 2026) is withdrawn; see CHANGELOG.md."
 authors:
@@ -14,7 +14,7 @@ repository-code: "https://github.com/licitatiimedicale/data"
 doi: "10.5281/zenodo.22908874"
 abstract: >
   Public procurement procedures for hazardous medical waste services (CPV 90524*)
-  awarded by public hospitals in Romania, 2018-2026: one row per procedure (292),
+  awarded by public hospitals in Romania, 2018-2026: one row per procedure (291),
   built from TED award notices read from XML (eForms and F03), the contract notices
   they reference, and SICAP records published through OpenTender/OCDS (2020-2024).
   Framework agreements are counted once; duration and value sources are given per row;

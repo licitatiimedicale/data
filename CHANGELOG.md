@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.0.2 — 2026-09-26
+
+- One duplicate row removed: the SICAP record `CN1021011` (Spitalul Clinic Județean de Urgență „Sf. Apostol Andrei” Galați, Eco Fire Sistems, no published value) is the same procedure as TED `357518-2020` and is now attached to it in `deseuri_grupare.csv`. Cause: hospital-name spelling variants („Sfântul" vs „SF.") were compared literally; the comparison is now tolerant. 291 procedures; totals, dates and the 12-month window are unchanged.
+- Four rows gain a note in `avertisment` (no value changes).
+- `scripts/build_procedures.py` updated accordingly (also fixes found in the medical-devices audit: military-unit numbers written „U.M. nr. …", cross-format merging restricted to old-format ↔ eForms pairs with compatible titles).
+
 ## v2.0.1 — 2026-09-26
 
 Small correction, same 292 procedures, same dates, same 12-month window (18 procedures, 24.96 M RON). An independent audit of the same method applied to medical devices (CPV 33*) found rules that also touched this set:

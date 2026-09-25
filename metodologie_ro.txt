@@ -1,5 +1,5 @@
 METODOLOGIE v6 — contracte de deșeuri medicale periculoase (CPV 90524x), spitale publice din România
-licitatiimedicale.com · versiunea 6 · 2026-09-23 · actualizare 2.0.1 la 2026-09-26 (vezi secțiunea finală) · înlocuiește setul trimis la 2026-07-18 (v1)
+licitatiimedicale.com · versiunea 6 · 2026-09-23 · actualizări 2.0.1 și 2.0.2 la 2026-09-26 (vezi secțiunea finală) · înlocuiește setul trimis la 2026-07-18 (v1)
 
 SURSE
 - TED (Tenders Electronic Daily): toate anunțurile TED cu CPV 90524x publicate de autorități din România — anunțuri de atribuire (eForms din 2023, formatul vechi F03 înainte) și anunțurile de participare la care acestea fac trimitere (eForms CN, respectiv F02), precum și eratele (F14) la anunțurile de participare, care sunt grupate cu anunțul corectat și nu sunt numărate drept contracte. Fiecare XML este descărcat și citit direct. Din XML luăm: identificatorul procedurii (ContractFolderID în eForms; numărul anunțului de participare pentru formatul vechi), câștigătorii, datele încheierii contractelor, valoarea atribuită, valoarea maximă a acordului-cadru (BT-118, respectiv suma valorilor maxime pe loturi), valoarea estimată, durata contractului (perioada planificată), titlul, dacă procedura este acord-cadru (eForms: codul de sistem de contractare; formatul vechi: elementul FRAMEWORK din anunțul de participare), dacă procedura a fost anulată.
@@ -53,3 +53,6 @@ Un audit independent al aceleiași metode aplicate pe dispozitive medicale (CPV 
 5. Coloana avertisment marchează în plus: valoare atribuită de peste 2 ori valoarea maximă/estimată publicată; valori totale care diferă de peste 50 de ori între anunțurile aceleiași proceduri; valoare maximă a acordului de peste 50 de ori valoarea atribuită; BT-118 de peste 3 ori BT-271; durată publicată de peste 60 de luni; contract publicat după data expirării calculate (durata probabil subestimată); valori de peste 1 miliard RON. Valorile rămân cele din anunțuri. 8 rânduri au primit astfel de marcaje.
 6. Verificările automate includ acum valoarea în testul de duplicate și un test „niciun acord-cadru publicat de două ori”.
 Programul care construiește setul este publicat în scripts/build_procedures.py.
+
+ACTUALIZARE 2.0.2 (2026-09-26)
+Compararea numelor de spital la gruparea anunțurilor tolerează acum variantele de scriere („Sfântul"/„SF.", „Spitalul"/„Spital", „Județean de Urgență" prescurtat, titluri academice). Efect: înregistrarea SICAP CN1021011 (Galați, Eco Fire Sistems, fără valoare publicată) este atașată procedurii TED 357518-2020, pe care o dublura. 291 de proceduri; totalurile, datele și fereastra de 12 luni nu se schimbă. Regula de unire a anunțurilor în format vechi cu cele eForms se aplică doar între cele două formate și cere titluri compatibile.

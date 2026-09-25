@@ -13,11 +13,11 @@ OK  publicat_in_TED = are cel putin un anunt TED
 OK  nicio pereche (spital, castigatori, data, titlu, valoare) duplicata
 OK  niciun acord-cadru publicat de doua ori (spital, castigatori, titlu, valoare maxima)
 
-randuri brute: 1022 | anunturi: 688 | excluse: 38 | proceduri finale: 292 | inregistrari SICAP atasate unei proceduri TED: 13
+randuri brute: 1022 | anunturi: 688 | excluse: 38 | proceduri finale: 291 | inregistrari SICAP atasate unei proceduri TED: 14
 expira 23.09.2026-23.09.2027: 18 = cu durata publicata 11 + cu durata estimata 7 (din care 1 probabil deja inlocuite, vezi coloana avertisment) | valoare fereastra: 25.0 mil RON
-sursa durata (toate): {'SICAP/OpenTender': 36, 'TED F02': 84, 'ESTIMAT': 102, 'TED eForms': 70}
-baza valorii (toate): {'valoare atribuita': 109, 'valoare maxima a acordului-cadru': 155, 'valoare nepublicata': 28}
-acorduri-cadru: 163 | publicate in TED: 160 | spitale militare: 16 | fara valoare: 28
+sursa durata (toate): {'SICAP/OpenTender': 35, 'TED F02': 84, 'ESTIMAT': 102, 'TED eForms': 70}
+baza valorii (toate): {'valoare atribuita': 109, 'valoare maxima a acordului-cadru': 155, 'valoare nepublicata': 27}
+acorduri-cadru: 163 | publicate in TED: 160 | spitale militare: 16 | fara valoare: 27
 excluse pe motiv: Counter({'autoritate non-spital': 24, 'procedura anulata / fara castigator': 7, 'centru medical ambulatoriu': 4, 'deseuri menajere dupa titlu': 3})
 contracte SICAP distincte (numar de anunt si valoare diferite) ale aceluiasi spital, castigator, zi si titlu (numarate separat, pastrate): 0
 randuri cu observatie de scop (titlu nepericuloase/chimice): 11 | randuri din fereastra cu avertisment: 1 | erate F14 grupate: 2

@@ -36,7 +36,11 @@ def add_months(d, m):
 def wnorm(x):
     x = re.sub(r"\b(S\.?C\.?|S\.?R\.?L\.?|S\.?A\.?|SRL|SA|ROMANIA)\b", "", strip_diac(x).upper())
     return re.sub(r"\W+", "", x)
-def hnorm(x): return re.sub(r"\W+", "", strip_diac(x).upper())
+def hnorm(x):
+    x = strip_diac(x or "").upper()
+    x = re.sub(r"\bSF[AI]NT(UL|A|II)\b|\bSF\.?\b", "SF", x); x = re.sub(r"\bSPITALUL\b", "SPITAL", x); x = re.sub(r"\bJUDETEAN\b", "JUD", x)
+    x = re.sub(r"\bDE URGENTA\b", "URG", x); x = re.sub(r"\b(PROF|DR|DOCTOR|ACAD|GENERAL|GEN)\.?\b", "", x); x = re.sub(r"\bMINISTERUL APARARII( NATIONALE)?\b|\bNR\.?\b", "", x)
+    return re.sub(r"\W+", "", x)
 def tnorm(t): return re.sub(r"[^A-Z0-9]+", "", strip_diac(t or "").upper())
 def dparse(s):
     try: return datetime.date.fromisoformat(str(s)[:10])
@@ -63,13 +67,15 @@ print("opentender:", len(ot), "| ted parsed:", len(P))
 # ---------- clasificare autoritate (fara diacritice) ----------
 HOSP = re.compile(r"SPITAL|INSTITUT|CLINIC|SANATOR|MATERNIT|POLICLINIC|ADMINISTRATIA SPITALELOR", re.I)
 # unitati militare cu profil de spital (spitale militare de urgenta, INMAS, sanatoriul Baltatesti); verificate dupa datele de contact din anunturi
-MIL_HOSP = re.compile(r"SPITAL.*MILITAR|MILITAR.*SPITAL|MEDICINA AERONAUTICA|U\.?M\.?\s?0?2175\b|U\.?M\.?\s?0?2534\b|U\.?M\.?\s?0?2460\b|U\.?M\.?\s?0?929\b|UNITATEA MILITARA 0?521\b|U\.?M\.?\s?0?521\b|U\.?M\.?\s?0?2454\b|U\.?M\.?\s?0?2497\b|U\.?M\.?\s?0?2558\b|U\.?M\.?\s?0?2489\b|U\.?M\.?\s?0?2417\b|U\.?M\.?\s?0?2275\b|U\.?M\.?\s?0?2587\b|UNITATEA MILITARA 0?(2497|2558|2489|2417|2275|2587)\b", re.I)
+MIL_HOSP = re.compile(r"SPITAL.*MILITAR|MILITAR.*SPITAL|MEDICINA AERONAUTICA", re.I)
+MIL_HOSP_UM = {"2175", "2534", "2460", "929", "521", "2454", "2497", "2558", "2489", "2417", "2275", "2587", "2482"}   # spitale militare / SUUMC / INMAS / sanatoriul Baltatesti
+UM_NUM = re.compile(r"(?:\bU\.?\s?M\.?|UNITATEA MILITARA)\s*(?:NR\.?\s*)?0*(\d{3,4})\b", re.I)
 PRIV = re.compile(r"\bS\.?\s?R\.?\s?L\.?\b|\bS\.?\s?A\.?\b(?!\w)|\bSRL\b", re.I)
-RESEARCH = re.compile(r"CERCETARE|TRANSFUZIE|CONTROLUL PRODUSELOR BIOLOGICE|PETRU PONI|FIZICA|LASER|SILVICULTUR|ECOLOGIE INDUSTRIALA|BIOLOGIE SI PATOLOGIE CELULARA|SUDURA", re.I)
+RESEARCH = re.compile(r"CERCETARE|TRANSFUZI|CONTROLUL PRODUSELOR BIOLOGICE|PETRU PONI|FIZICA MATERIALELOR|LASER|SILVICULTUR|ECOLOGIE INDUSTRIALA|BIOLOGIE SI PATOLOGIE CELULARA|SUDURA", re.I)
 NONH = re.compile(r"ASISTENTA SOCIALA|PROTECTIA COPILULUI|DSVSA|SANITAR VETERINAR|PENITENCIAR|POLITI|SANATATE PUBLICA|MEDICINA LEGALA|OMV|PETROM|PRIMARIA|MUNICIPIUL |SECTORUL |CONSILIUL JUDETEAN|UNIVERSITATEA DE MEDICINA|MONETARIA|SERVICIUL DE AMBULANTA|REGIA AUTONOMA", re.I)
 def classify(name):
     n = strip_diac(name or "")
-    if MIL_HOSP.search(n): return "spital", "unitate militara cu profil de spital"
+    if MIL_HOSP.search(n) or any(m in MIL_HOSP_UM for m in UM_NUM.findall(n)): return "spital", "unitate militara cu profil de spital"
     if re.search(r"PENITENCIAR", n, re.I) and re.search(r"SPITAL", n, re.I): return "spital", "spital penitenciar"
     if NONH.search(n): return "exclus", "autoritate non-spital"
     if PRIV.search(n): return "exclus", "entitate privata (SRL/SA)"
@@ -286,6 +292,13 @@ for keys in _gb.values():
         if k2 in merged or (k, k2) in _seen_pairs: continue
         _seen_pairs.add((k, k2))
         A, B = groups[k], groups[k2]
+        if k[:2] == k2[:2]:
+            # doua chei de acelasi tip = proceduri diferite, cu o exceptie: acelasi titlu exact, aceiasi castigatori si aceeasi prima data de contract (anunt republicat sub alt numar)
+            A, B = groups[k], groups[k2]
+            if k[:2] == "P:" and gwin(A) and gwin(A) == gwin(B) and gdate(A) and gdate(A) == gdate(B) and tnorm(A[0]["title"]) == tnorm(B[0]["title"]) and not any(b.get("negociat") for b in A + B):
+                for b in B: b["join"] = "aceeasi procedura (titlu, castigatori si prima data de contract identice; anunt republicat)"
+                groups[k].extend(B); merged[k2] = k
+            continue
         if os.environ.get("DBG_PAIR") and any(b["nid"] in os.environ["DBG_PAIR"].split(",") for b in A + B):
             print("DBG", k, k2, [b["nid"] for b in A], [b["nid"] for b in B], gted(A), gted(B), [b.get("negociat") for b in A + B], gwin(A), gwin(B), gdate(A), gdate(B), file=sys.stderr)
         if not (gted(A) and gted(B)): continue
@@ -297,9 +310,11 @@ for keys in _gb.values():
         def _fw(lst): return [v for v in (b.get("fw_max") for b in lst) if v]
         # acelasi acord republicat in eForms: aceleasi date de incheiere a contractelor (exacte) + castigatori comuni (Jaccard >= 0.5)
         _cdA, _cdB = {d for b in A for d in b["contract_dates"]}, {d for b in B for d in b["contract_dates"]}
-        same_cd = bool(_cdA & _cdB) and len(gwin(A) & gwin(B)) / max(1, len(gwin(A) | gwin(B))) >= 0.5
+        _tsim = max((title_sim(a_.get("title"), b_.get("title")) for a_ in A for b_ in B if a_.get("title") and b_.get("title")), default=1.0)
+        _jac = len(gwin(A) & gwin(B)) / max(1, len(gwin(A) | gwin(B)))
+        same_cd = _tsim >= 0.5 and _jac >= 0.5 and (len(_cdA & _cdB) >= 2 or (len(_cdA & _cdB) == 1 and (tnorm(A[0]["title"]) == tnorm(B[0]["title"]) or len(_cdA) <= 3 or len(_cdB) <= 3)))
         same_fw = same_w and tnorm(A[0]["title"]) == tnorm(B[0]["title"]) and _fw(A) and _fw(B) and abs(max(_fw(A)) - max(_fw(B))) / max(max(_fw(A)), max(_fw(B))) <= 0.01 and da and db_ and abs((da - db_).days) <= 540
-        if (da and db_ and abs((da - db_).days) <= (14 if same_w else 3)) or same_fw or same_cd:
+        if (da and db_ and abs((da - db_).days) <= (14 if same_w else 3) and _tsim >= 0.5) or same_fw or same_cd:
             fa, fb = {b["folder"] for b in A if b["folder"]}, {b["folder"] for b in B if b["folder"]}
             if fa and fb and fa != fb: continue   # doua foldere eForms diferite = proceduri diferite
             for b in B: b["join"] = ("acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)" if same_fw else ("acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)" if same_cd else "acelasi spital+castigatori+data (format vechi <-> eForms)"))
@@ -314,7 +329,7 @@ def build_proc(lst):
     def pub_order(b):
         m = re.fullmatch(r"(\d+)-(\d{4})", b["nid"])
         return (int(m.group(2)), int(m.group(1))) if m else (9999, 0)
-    head = min(lst, key=lambda b: (not b["is_award_notice"], not b["winners"], bool(b.get("no_winner")), pub_order(b), b["db_award"] or "9999", b["nid"]))
+    head = min(lst, key=lambda b: (not b["is_award_notice"], not is_ted_id(b["nid"]), not b["winners"], bool(b.get("no_winner")), pub_order(b), b["db_award"] or "9999", b["nid"]))
     g = {"nid": head["nid"], "members": lst, "hospital": head["hospital"], "hosp_note": next((b["hosp_note"] for b in lst if b.get("hosp_note")), ""), "cpv": head["cpv"]}
     g["winners"] = []
     for b in sorted(lst, key=lambda b: (not b["is_award_notice"], b["nid"])):
@@ -387,7 +402,7 @@ def is_mirror(head, g):
     """g = grup format doar din inregistrari SICAP; head = procedura TED. Aceeasi procedura daca: castigatori comuni,
     titlu compatibil, valoare in +/-10% fata de o valoare cunoscuta a procedurii (daca ambele au valori) si data
     inregistrarii SICAP intre data atribuirii si expirarea procedurii TED."""
-    if g.get("has_key") or not head.get("has_key"): return False
+    if g.get("has_key") or not (head.get("has_key") or head.get("ted_any")): return False
     if any(b.get("negociat") for b in g["members"]): return False
     if not ({wnorm(x) for x in head["winners"]} & {wnorm(x) for x in g["winners"]}): return False
     if title_sim(head.get("title"), g.get("title")) < 0.3: return False
@@ -437,6 +452,7 @@ for lst in byhw.values():
 def _addav(g, msg): g["avert"] = ((g.get("avert") + "; ") if g.get("avert") else "") + msg
 for g in procs.values():
     v, aw_, fm_, fe_ = g.get("value") or 0, g.get("awarded") or 0, g.get("fw_max") or 0, g.get("fw_max_est") or 0
+    if 0 < v < 100: _addav(g, "valoare publicata implauzibil de mica (sub 100 RON); este valoarea din inregistrare, posibil eroare de unitate")
     if v > 1e9: _addav(g, "valoare publicata neobisnuit de mare (peste 1 miliard RON); este valoarea din anunt, posibil eroare de publicare a autoritatii - verificati anuntul")
     if g["fw"] and fm_ and aw_ and fm_ > 50 * aw_ and fm_ > 1e7: _addav(g, "valoarea maxima publicata a acordului este de peste 50 de ori valoarea atribuita publicata; posibil eroare de publicare - verificati anuntul")
     if fm_ and fe_ and fm_ > 3 * fe_: _addav(g, "valoarea maxima a acordului (BT-118) depaseste de peste 3 ori valoarea estimata (BT-271) din acelasi anunt; posibil eroare de publicare")
@@ -446,6 +462,7 @@ for g in procs.values():
     _late = [d for d in g.get("contract_dates", []) if dparse(d) and dparse(d) > g["exp"]]
     if _late: _addav(g, f"contract publicat dupa data expirarii calculate ({_late[-1]}); durata este probabil subestimata")
     t_ = strip_diac(g.get("title") or "").upper()
+    if "SUBSECVENT" in t_ and not g.get("ted_any"): g["scop"] = (g.get("scop") + "; " if g.get("scop") else "") + "titlul indica un contract subsecvent (SICAP); acordul-cadru de baza nu a putut fi identificat in set"
     if re.search(r"MEDICAMENT|CITOSTATIC|PERFUZABIL|VACCIN", t_) and not re.search(r"DISPOZITIV|CONSUMABIL|MATERIAL|ECHIPAMENT|APARAT", t_):
         g["scop"] = (g.get("scop") + "; " if g.get("scop") else "") + "titlul indica medicamente (CPV 33x publicat de autoritate)"
 # ---------- 7. iesire ----------

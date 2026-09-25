@@ -1,0 +1,23 @@
+OK  id unic per procedura
+OK  ContractFolderID unic intre proceduri
+OK  fiecare rand brut apare exact o data in grupare.csv
+OK  fiecare id final din grupare.csv exista in deseuri_toate
+OK  toate CPV 33*
+OK  nicio autoritate non-spital
+OK  niciun rand fara castigator
+OK  niciun titlu 'menajere'
+OK  fiecare rand are sursa duratei si baza valorii
+OK  nicio inregistrare SICAP negociata atasata altei proceduri
+OK  acord-cadru => valoarea folosita este valoarea maxima a acordului (cand e publicata)
+OK  publicat_in_TED = are cel putin un anunt TED
+OK  nicio pereche (spital, castigatori, data, titlu, valoare) duplicata
+OK  niciun acord-cadru publicat de doua ori (spital, castigatori, titlu, valoare maxima)
+
+randuri brute: 78974 | anunturi: 32169 | excluse: 5099 | proceduri finale: 16072 | inregistrari SICAP atasate unei proceduri TED: 330
+expira 25.09.2026-25.09.2027: 1035 = cu durata publicata 658 + cu durata estimata 377 (din care 68 probabil deja inlocuite, vezi coloana avertisment) | valoare fereastra: 8031.2 mil RON
+sursa durata (toate): {'TED F02': 2344, 'ESTIMAT': 10270, 'SICAP/OpenTender': 620, 'TED eForms': 2838}
+baza valorii (toate): {'valoare maxima a acordului-cadru': 3908, 'valoare atribuita': 11707, 'valoare maxima estimata a procedurii': 11, 'valoare nepublicata': 446}
+acorduri-cadru: 4067 | publicate in TED: 5528 | spitale militare: 822 | fara valoare: 446
+excluse pe motiv: Counter({'autoritate non-spital': 3961, 'procedura anulata / fara castigator': 385, 'unitate militara fara profil de spital': 219, 'procedura fara anunt de atribuire cu castigator': 181, 'entitate privata': 175, 'institut de cercetare / fara paturi de spital': 144, 'centru medical ambulatoriu': 33, 'deseuri menajere dupa titlu': 1})
+contracte SICAP distincte (numar de anunt si valoare diferite) ale aceluiasi spital, castigator, zi si titlu (numarate separat, pastrate): 678
+randuri cu observatie de scop (titlu nepericuloase/chimice): 198 | randuri din fereastra cu avertisment: 153 | erate F14 grupate: 647

@@ -1,10 +1,10 @@
-# Romanian Hospital Medical Waste Contracts · CPV 90524* · v2
+# Romanian Hospital Procurement Datasets · Medical Waste (CPV 90524*) v2 · Medical Devices (CPV 33*) v2
 
 Open dataset of public procurement procedures for **hazardous medical waste services (CPV 90524\*) awarded by public hospitals in Romania**, 2018–2026, built from the TED award notices (read directly from XML) and the SICAP records published through OpenTender/OCDS.
 
 **Version 2 (2026-09-23, corrected 2.0.1/2.0.2 on 2026-09-26) replaces version 1 entirely.** Version 1 contained systematic errors (framework values counted once per winner, subsequent award notices counted as new contracts, non-hospital authorities, non-medical CPV codes, unawarded procedures, a uniform 24-month duration assumption). They were found by a journalist during pre-publication verification; we confirmed them and rebuilt the dataset. The details are in [CHANGELOG.md](CHANGELOG.md). The v1 files are kept in `archive/v1/` for traceability only and must not be used.
 
-**The CPV 33\* (medical devices) dataset of v1 is withdrawn** until it is rebuilt with the same method.
+**The CPV 33\* (medical devices) dataset was rebuilt with the same method and republished on 2026-09-26** (files `data/dispozitive_*`, methodology `metodologie_dispozitive_ro.txt`). It went through three rounds of independent audit before publication; what each round found and what changed is in the methodology note and in [CHANGELOG.md](CHANGELOG.md).
 
 **Site:** https://licitatiimedicale.com · **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
@@ -18,6 +18,10 @@ Open dataset of public procurement procedures for **hazardous medical waste serv
 | `data/deseuri_excluse.csv` | Every excluded notice, with the reason | 38 |
 | `data/deseuri_ferestre_12_luni.csv` | Procedures expiring / awarded per 12-month window since 2021 | 6 |
 | `data/deseuri_verificari.txt` | Automated checks run before publication | — |
+| `data/dispozitive_medicale_spitale_2018_2026.csv` | Medical devices (CPV 33*, excl. 336*): one row per procedure, same columns | 16,072 |
+| `data/dispozitive_expira_12_luni.csv` | Subset expiring between 2026-09-25 and 2027-09-25 | 1,035 |
+| `data/dispozitive_grupare.csv` · `dispozitive_excluse.csv` · `dispozitive_ferestre_12_luni.csv` · `dispozitive_verificari.txt` | Traceability, exclusions, 12-month windows and automated checks for the devices set | — |
+| `metodologie_dispozitive_ro.txt` | Devices: what differs from the waste method, limits, audit summary (Romanian) | — |
 | `metodologie_ro.txt` | Full methodology, Romanian: sources, grouping rules, value and duration rules, limitations; section "Actualizare 2.0.1" | — |
 | `scripts/build_procedures.py` | The build script (Python; reads the TED XML archive, the OpenTender CSVs and our SQLite index) | — |
 | `CHANGELOG.md` | What was wrong in v1 and what changed | — |

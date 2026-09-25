@@ -213,6 +213,7 @@ for a in proc_in.values():
         a["join"] = "acelasi ContractFolderID" if k.startswith("F:") else ("erata (F14) la anuntul de participare" if a["fmt"] == "legacy_corr" else "acelasi anunt de participare (F02)")
     else: loose.append(a)
 def ttoks(t): return {w for w in re.split(r"[^A-Z0-9]+", strip_diac(t or "").upper()) if len(w) > 3}
+def tnum(t): return set(re.findall(r"(?<![A-Z0-9])(?:\d{1,3}|[IVX]{1,4})(?![A-Z0-9])", strip_diac(t or "").upper()))
 def title_sim(t1, t2):
     A, B = ttoks(t1), ttoks(t2)
     if not A or not B: return 1.0
@@ -285,6 +286,7 @@ _gb = collections.defaultdict(list)
 for k, lst in groups.items():
     for hn in {hnorm(b["hospital"]) for b in lst}: _gb[hn].append(k)
 _seen_pairs = set()
+gkeys = {k: {k} for k in groups}   # cheile de procedura reunite intr-un grup: cel mult un P: si un F:
 for keys in _gb.values():
   for i, k in enumerate(keys):
     if k in merged: continue
@@ -310,15 +312,18 @@ for keys in _gb.values():
         def _fw(lst): return [v for v in (b.get("fw_max") for b in lst) if v]
         # acelasi acord republicat in eForms: aceleasi date de incheiere a contractelor (exacte) + castigatori comuni (Jaccard >= 0.5)
         _cdA, _cdB = {d for b in A for d in b["contract_dates"]}, {d for b in B for d in b["contract_dates"]}
+        if len({x[:2] for x in gkeys[k] | gkeys[k2]}) < len(gkeys[k] | gkeys[k2]): continue   # ar reuni doua anunturi de participare sau doua foldere (punte tranzitiva)
         _tsim = max((title_sim(a_.get("title"), b_.get("title")) for a_ in A for b_ in B if a_.get("title") and b_.get("title")), default=1.0)
+        _tA, _tB = next((a_["title"] for a_ in A if a_.get("title")), ""), next((b_["title"] for b_ in B if b_.get("title")), "")
+        if _tA and _tB and tnum(_tA) != tnum(_tB): continue   # "Consumabile medicale 1" vs "... 3" = proceduri diferite
         _jac = len(gwin(A) & gwin(B)) / max(1, len(gwin(A) | gwin(B)))
-        same_cd = _tsim >= 0.5 and _jac >= 0.5 and (len(_cdA & _cdB) >= 2 or (len(_cdA & _cdB) == 1 and (tnorm(A[0]["title"]) == tnorm(B[0]["title"]) or len(_cdA) <= 3 or len(_cdB) <= 3)))
+        same_cd = _tsim >= 0.5 and _jac >= 0.5 and da and db_ and abs((da - db_).days) <= 540 and (len(_cdA & _cdB) >= 2 or (len(_cdA & _cdB) == 1 and (tnorm(A[0]["title"]) == tnorm(B[0]["title"]) or len(_cdA) <= 3 or len(_cdB) <= 3)))
         same_fw = same_w and tnorm(A[0]["title"]) == tnorm(B[0]["title"]) and _fw(A) and _fw(B) and abs(max(_fw(A)) - max(_fw(B))) / max(max(_fw(A)), max(_fw(B))) <= 0.01 and da and db_ and abs((da - db_).days) <= 540
-        if (da and db_ and abs((da - db_).days) <= (14 if same_w else 3) and _tsim >= 0.5) or same_fw or same_cd:
+        if (da and db_ and abs((da - db_).days) <= (14 if same_w else 3) and _tsim >= 0.5 and _jac >= 0.5) or same_fw or same_cd:
             fa, fb = {b["folder"] for b in A if b["folder"]}, {b["folder"] for b in B if b["folder"]}
             if fa and fb and fa != fb: continue   # doua foldere eForms diferite = proceduri diferite
             for b in B: b["join"] = ("acelasi acord-cadru (titlu, castigatori, valoare maxima; format vechi <-> eForms)" if same_fw else ("acelasi acord (aceleasi date de incheiere a contractelor, castigatori; format vechi <-> eForms)" if same_cd else "acelasi spital+castigatori+data (format vechi <-> eForms)"))
-            groups[k].extend(B); merged[k2] = k
+            groups[k].extend(B); merged[k2] = k; gkeys[k] |= gkeys[k2]
 for k2 in merged: groups.pop(k2, None)
 print("proceduri (dupa grupare):", len(groups))
 
@@ -378,6 +383,7 @@ def build_proc(lst):
     else: g["dur"] = 24; g["dur_src"] = "ESTIMAT (24 luni, durata nepublicata)"; g["exp"] = add_months(a0, 24)
     g["title"] = next((b["title"] for b in lst if b["title"]), "")
     g["vt"] = head["vt"]; g["srcs"] = set().union(*[b["srcs"] for b in lst])
+    if head["fmt"] in ("legacy_cn", "legacy_corr") or str(head.get("notice_type") or "").startswith("cn"): g["head_cn_note"] = "anuntul de atribuire TED lipseste; procedura este identificata prin anuntul de participare TED, castigatorii si valorile provin din inregistrarea SICAP"
     g["alte"] = [b["nid"] for b in lst if b["nid"] != head["nid"]]
     g["value"], g["basis"] = None, ""
     return g
@@ -452,6 +458,7 @@ for lst in byhw.values():
 def _addav(g, msg): g["avert"] = ((g.get("avert") + "; ") if g.get("avert") else "") + msg
 for g in procs.values():
     v, aw_, fm_, fe_ = g.get("value") or 0, g.get("awarded") or 0, g.get("fw_max") or 0, g.get("fw_max_est") or 0
+    if (g.get("awarded") is not None and g.get("awarded") == 0) or (v == 0 and g.get("basis", "").startswith("valoare atribuita")): _addav(g, "valoare atribuita publicata 0; posibil eroare de publicare")
     if 0 < v < 100: _addav(g, "valoare publicata implauzibil de mica (sub 100 RON); este valoarea din inregistrare, posibil eroare de unitate")
     if v > 1e9: _addav(g, "valoare publicata neobisnuit de mare (peste 1 miliard RON); este valoarea din anunt, posibil eroare de publicare a autoritatii - verificati anuntul")
     if g["fw"] and fm_ and aw_ and fm_ > 50 * aw_ and fm_ > 1e7: _addav(g, "valoarea maxima publicata a acordului este de peste 50 de ori valoarea atribuita publicata; posibil eroare de publicare - verificati anuntul")
@@ -474,6 +481,7 @@ def note(g):
     if g.get("hosp_note"): n.append(g["hosp_note"])
     if g.get("date_note"): n.append(g["date_note"])
     if g.get("date_note_bad"): n.append(g["date_note_bad"])
+    if g.get("head_cn_note"): n.append(g["head_cn_note"])
     if g.get("awarded_note"): n.append(g["awarded_note"])
     if g.get("alte"): n.append("aceeasi procedura publicata si sub: " + ", ".join(g["alte"]))
     if g.get("awarded") and g.get("fw_max") and g["awarded"] > g["fw_max"] * 1.001: n.append("valoarea atribuita publicata depaseste valoarea maxima publicata (asa apar in anunturi)")

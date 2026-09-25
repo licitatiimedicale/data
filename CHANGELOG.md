@@ -1,5 +1,13 @@
 # Changelog
 
+## v2.1.0 — 2026-09-26 — medical devices (CPV 33*) republished
+
+The devices dataset withdrawn in v2 is republished, built by the same script and rules as the waste set (v2.0.2): 16,072 procedures of public hospitals, 2018–2026, CPV 33* without 336* (pharmaceuticals); 1,035 expiring between 2026-09-25 and 2027-09-25. Files `data/dispozitive_*`, methodology `metodologie_dispozitive_ro.txt`.
+
+Before publication it went through three rounds of independent audit (random rows checked against the TED XML, largest values, the 12-month window, exclusions, duplicates). Round 1 found 14 issues (military hospitals wrongly excluded, one framework counted twice at the eForms transition, awarded value taken from the first notice, contract dates in year 2000, research institutes and private clinics kept, unflagged publication errors); round 2 found 12 (grouping rules too wide, hospital-name spelling variants, classification regexes); round 3 found one remaining major issue (transitive merging and numeric title suffixes, 13 rows) and verified all earlier fixes with zero counter-examples. All were fixed; the published set is the post-round-3 build. Figures on the site now come from this set.
+
+Compared with the withdrawn v1 (19,087 "records"), the counting unit and the rules are different; the two are not comparable.
+
 ## v2.0.2 — 2026-09-26
 
 - One duplicate row removed: the SICAP record `CN1021011` (Spitalul Clinic Județean de Urgență „Sf. Apostol Andrei” Galați, Eco Fire Sistems, no published value) is the same procedure as TED `357518-2020` and is now attached to it in `deseuri_grupare.csv`. Cause: hospital-name spelling variants („Sfântul" vs „SF.") were compared literally; the comparison is now tolerant. 291 procedures; totals, dates and the 12-month window are unchanged.

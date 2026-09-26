@@ -4,7 +4,7 @@ Open dataset of public procurement procedures for **hazardous medical waste serv
 
 **Version 2 (2026-09-23, corrected 2.0.1/2.0.2 on 2026-09-26) replaces version 1 entirely.** Version 1 contained systematic errors (framework values counted once per winner, subsequent award notices counted as new contracts, non-hospital authorities, non-medical CPV codes, unawarded procedures, a uniform 24-month duration assumption). They were found by a journalist during pre-publication verification; we confirmed them and rebuilt the dataset. The details are in [CHANGELOG.md](CHANGELOG.md). The v1 files are kept in `archive/v1/` for traceability only and must not be used.
 
-**The CPV 33\* (medical devices) dataset was rebuilt with the same method and republished on 2026-09-26** (files `data/dispozitive_*`, methodology `metodologie_dispozitive_ro.txt`). It went through three rounds of independent audit before publication; what each round found and what changed is in the methodology note and in [CHANGELOG.md](CHANGELOG.md).
+**The CPV 33\* (medical devices) dataset was rebuilt with the same method and republished on 2026-09-26** (files `data/dispozitive_*`, methodology `metodologie_dispozitive_ro.txt`). **Devices v2 DOI: [10.5281/zenodo.22969660](https://doi.org/10.5281/zenodo.22969660)** (the v1 devices record 10.5281/zenodo.20550446 is annotated as withdrawn). It went through three rounds of independent audit before publication; what each round found and what changed is in the methodology note and in [CHANGELOG.md](CHANGELOG.md).
 
 **Site:** https://licitatiimedicale.com · **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 

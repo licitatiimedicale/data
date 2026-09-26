@@ -11,7 +11,7 @@ type: dataset
 license: CC-BY-4.0
 url: "https://licitatiimedicale.com"
 repository-code: "https://github.com/licitatiimedicale/data"
-doi: "10.5281/zenodo.22908874"
+doi: "10.5281/zenodo.22969690"
 abstract: >
   Public procurement procedures for hazardous medical waste services (CPV 90524*)
   awarded by public hospitals in Romania, 2018-2026: one row per procedure (291),

@@ -12,6 +12,7 @@ Compared with the withdrawn v1 (19,087 "records"), the counting unit and the rul
 
 - One duplicate row removed: the SICAP record `CN1021011` (Spitalul Clinic Județean de Urgență „Sf. Apostol Andrei” Galați, Eco Fire Sistems, no published value) is the same procedure as TED `357518-2020` and is now attached to it in `deseuri_grupare.csv`. Cause: hospital-name spelling variants („Sfântul" vs „SF.") were compared literally; the comparison is now tolerant. 291 procedures; totals, dates and the 12-month window are unchanged.
 - Four rows gain a note in `avertisment` (no value changes).
+- Zenodo: published as version 2.0.2 of the v2 record, **DOI 10.5281/zenodo.22969690**.
 - `scripts/build_procedures.py` updated accordingly (also fixes found in the medical-devices audit: military-unit numbers written „U.M. nr. …", cross-format merging restricted to old-format ↔ eForms pairs with compatible titles).
 
 ## v2.0.1 — 2026-09-26

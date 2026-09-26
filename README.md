@@ -50,7 +50,7 @@ Public data only; legal entities only. No accusation is made or implied about an
 
 ## Citation
 
-See `CITATION.cff`. **v2 DOI: [10.5281/zenodo.22908874](https://doi.org/10.5281/zenodo.22908874)**. The Zenodo records of v1 (June–September 2026) are annotated as withdrawn and point to this record.
+See `CITATION.cff`. **Waste v2.0.2 DOI: [10.5281/zenodo.22969690](https://doi.org/10.5281/zenodo.22969690)** (v2.0.0: 10.5281/zenodo.22908874; concept DOI 10.5281/zenodo.22908873 always resolves to the latest version). **Devices v2 DOI: [10.5281/zenodo.22969660](https://doi.org/10.5281/zenodo.22969660)**. The Zenodo records of v1 (June–September 2026) are annotated as withdrawn and point to this record.
 
 ## Who
 

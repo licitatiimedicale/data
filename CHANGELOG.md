@@ -1,6 +1,8 @@
 # Changelog
 
-## v2.1.0 — 2026-09-26 — medical devices (CPV 33*) republished
+## v2.1.0 — 2026-09-26 — medical devices (CPV 33*) dataset v2.0.0 republished
+
+`v2.1.0` is the repository tag of this release; the medical devices dataset itself is **version 2.0.0** (same number as its Zenodo record). The waste dataset stays at 2.0.2.
 
 The devices dataset withdrawn in v2 is republished, built by the same script and rules as the waste set (v2.0.2): 16,072 procedures of public hospitals, 2018–2026, CPV 33* without 336* (pharmaceuticals); 1,035 expiring between 2026-09-25 and 2027-09-25. Files `data/dispozitive_*`, methodology `metodologie_dispozitive_ro.txt`. Zenodo: **DOI 10.5281/zenodo.22969660** (concept DOI 10.5281/zenodo.22969659).
 

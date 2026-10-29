@@ -1,7 +1,8 @@
-"""Deseuri medicale periculoase (CPV 90524x), spitale publice — set refacut, VERSIUNEA 6 (2026-09-23).
-Surse: tenders.db (randuri brute), data/ted_parsed_9052.json (XML TED de pe disc: atribuire eForms/F03, participare eForms-CN/F02,
-erate F14), OpenTender main.csv 2020-2024. Iesire: outreach_sep2026/pressone_v6/. DB'ye yazmaz. Regulile sunt descrise in
-metodologie_v6.txt; verificarile automate in verificari.txt."""
+"""Proceduri de achizitie ale spitalelor publice din Romania, un rand per procedura: deseuri medicale periculoase (CPV 90524*,
+implicit) si dispozitive medicale (CPV 33* fara 336*, cu --niche dispozitive_medicale --cpv '33%' --cpv-exclude 336).
+Surse: tenders.db (randuri brute), fisierul JSON cu XML-urile TED citite de pe disc (atribuire eForms/F03, participare eForms-CN/F02,
+erate F14), OpenTender main.csv 2020-2024. Scrie doar fisierele CSV/TXT din directorul --out; nu scrie in baza de date.
+Regulile sunt descrise in metodologie_ro.txt (si metodologie_dispozitive_ro.txt); verificarile automate in verificari.txt."""
 import os, sys, csv, json, os, re, sqlite3, datetime, collections, glob, calendar, unicodedata
 import argparse
 _ap = argparse.ArgumentParser()
@@ -9,7 +10,7 @@ _ap.add_argument("--niche", default="deseuri_medicale"); _ap.add_argument("--cpv
 _ap.add_argument("--cpv-exclude", default="", help="prefixe CPV excluse, separate prin virgula (ex. 336)")
 _ap.add_argument("--cpv-check", default="90524", help="prefix asteptat pentru verificarea 'toate CPV'")
 _ap.add_argument("--parsed", default="/opt/ted-engine/data/ted_parsed_9052.json")
-_ap.add_argument("--out", default="/opt/ted-engine/outreach_sep2026/pressone_v6")
+_ap.add_argument("--out", default="/opt/ted-engine/outreach_sep2026/build_out")
 _ap.add_argument("--today", default=None); _A = _ap.parse_args()
 OUT = _A.out; os.makedirs(OUT, exist_ok=True)
 DB = "/opt/ted-engine/tenders.db"
@@ -68,7 +69,7 @@ print("opentender:", len(ot), "| ted parsed:", len(P))
 HOSP = re.compile(r"SPITAL|INSTITUT|CLINIC|SANATOR|MATERNIT|POLICLINIC|ADMINISTRATIA SPITALELOR", re.I)
 # unitati militare cu profil de spital (spitale militare de urgenta, INMAS, sanatoriul Baltatesti); verificate dupa datele de contact din anunturi
 MIL_HOSP = re.compile(r"SPITAL.*MILITAR|MILITAR.*SPITAL|MEDICINA AERONAUTICA", re.I)
-MIL_HOSP_UM = {"2175", "2534", "2460", "929", "521", "2454", "2497", "2558", "2489", "2417", "2275", "2587", "2482"}   # spitale militare / SUUMC / INMAS / sanatoriul Baltatesti
+MIL_HOSP_UM = {"2175", "2534", "2460", "929", "521", "2454", "2497", "2558", "2489", "2417", "2275", "2587", "2482", "2474", "2590"}   # spitale militare / SUUMC / INMAS / sanatoriul Baltatesti
 UM_NUM = re.compile(r"(?:\bU\.?\s?M\.?|UNITATEA MILITARA)\s*(?:NR\.?\s*)?0*(\d{3,4})\b", re.I)
 PRIV = re.compile(r"\bS\.?\s?R\.?\s?L\.?\b|\bS\.?\s?A\.?\b(?!\w)|\bSRL\b", re.I)
 RESEARCH = re.compile(r"CERCETARE|TRANSFUZI|CONTROLUL PRODUSELOR BIOLOGICE|PETRU PONI|FIZICA MATERIALELOR|LASER|SILVICULTUR|ECOLOGIE INDUSTRIALA|BIOLOGIE SI PATOLOGIE CELULARA|SUDURA", re.I)
@@ -219,28 +220,12 @@ def title_sim(t1, t2):
     if not A or not B: return 1.0
     return len(A & B) / len(A | B)
 # inregistrari SICAP fara identificator TED: se leaga de un anunt TED al aceleiasi proceduri numai daca NU sunt negocieri
-def attach_loose(a):
-    """acelasi spital + CPV si: (a) anuntul TED este de participare (fara castigatori pe el) si data SICAP = data lui +/-3 zile;
-    (b) aceiasi castigatori + data +/-14 zile fata de o data de contract din anuntul TED + titlu compatibil."""
-    if a["negociat"]: return None
-    da = dparse(a["db_award"])
-    for k, lst in groups.items():
-        for b in lst:
-            if hnorm(b["hospital"]) != hnorm(a["hospital"]) or str(b["cpv"])[:5] != str(a["cpv"])[:5]: continue
-            if b.get("negociat"): continue
-            b_is_cn = str(b.get("notice_type") or "").startswith("cn") or b["fmt"] == "legacy_cn"
-            if b_is_cn or not b["winners"]:
-                db_ = dparse(b["db_award"]); sim = title_sim(a["title"], b["title"])
-                if da and db_ and ((abs((da - db_).days) <= 3 and sim >= 0.3) or (abs((da - db_).days) <= 45 and sim >= 0.7)): return k
-            elif a["winners"]:
-                if {wnorm(x) for x in a["winners"]} != {wnorm(x) for x in b["winners"]}: continue
-                dates = [dparse(d) for d in b["contract_dates"]] or [dparse(b["db_award"])]
-                if da and any(d and abs((da - d).days) <= 14 for d in dates) and title_sim(a["title"], b["title"]) >= 0.3: return k
-    return None
 _bucket = collections.defaultdict(list)
 for k, lst in groups.items():
     for b in lst: _bucket[(hnorm(b["hospital"]), str(b["cpv"])[:5])].append((k, b))
 def attach_loose(a):
+    """acelasi spital + CPV si: (a) anuntul TED este de participare (fara castigatori pe el) si data SICAP = data lui +/-3 zile
+    (+/-45 zile la titlu aproape identic); (b) aceiasi castigatori + data +/-14 zile fata de o data de contract + titlu compatibil."""
     if a["negociat"]: return None
     da = dparse(a["db_award"])
     for k, b in _bucket.get((hnorm(a["hospital"]), str(a["cpv"])[:5]), []):

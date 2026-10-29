@@ -2,7 +2,7 @@ cff-version: 1.2.0
 title: "Romanian Hospital Medical Waste Procurement Dataset (CPV 90524*), v2"
 version: "2.0.2"
 date-released: "2026-09-26"
-message: "If you use this dataset, please cite it using the metadata below. Version 1 (June 2026) is withdrawn; see CHANGELOG.md."
+message: "If you use the medical waste dataset, please cite it using the metadata below; for the medical devices dataset (CPV 33*) cite the entry under references (DOI 10.5281/zenodo.22969660). Version 1 (June–September 2026) is withdrawn; see CHANGELOG.md."
 authors:
   - name: "Licitații Medicale"
     website: "https://licitatiimedicale.com"
@@ -19,7 +19,9 @@ abstract: >
   they reference, and SICAP records published through OpenTender/OCDS (2020-2024).
   Framework agreements are counted once; duration and value sources are given per row;
   every raw record is traceable to its procedure. Version 2 replaces version 1,
-  which contained systematic counting errors.
+  which contained systematic counting errors. The same repository also holds the
+  medical devices dataset (CPV 33* without 336*, 16,072 procedures), built with the
+  same script and rules and cited separately (see references).
 keywords:
   - public procurement
   - Romania
@@ -30,13 +32,25 @@ keywords:
   - SICAP
   - open data
 preferred-citation:
-  type: dataset
+  type: data
   title: "Romanian Hospital Medical Waste Procurement Dataset (CPV 90524*), v2"
   authors:
     - name: "Licitații Medicale"
   year: 2026
-  version: "2.0.0"
+  version: "2.0.2"
+  doi: "10.5281/zenodo.22969690"
   url: "https://github.com/licitatiimedicale/data"
   publisher:
     name: "Licitații Medicale"
     website: "https://licitatiimedicale.com"
+references:
+  - type: data
+    title: "Proceduri de achiziție pentru dispozitive medicale (CPV 33*), spitale publice din România, 2018–2026 — v2"
+    authors:
+      - name: "Licitații Medicale"
+    year: 2026
+    version: "2.0.0"
+    date-released: "2026-09-26"
+    doi: "10.5281/zenodo.22969660"
+    url: "https://github.com/licitatiimedicale/data"
+    license: CC-BY-4.0
